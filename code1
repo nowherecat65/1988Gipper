@@ -28,7 +28,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Republican",
             "state": "California",
             "priority": 1,
-            "description": "<p>George Bush has served as Vice President for eight years, and also as a UN Ambassador, Director of the RNC, and Director of the CIA. He is hoping to succeed the popular Reagan, but fights the impression that he is <em>too</em> dependent on his former boss. He must prove he has the independence, ideological rigor, and strength to serve as President, all while finding some way to reduce the popularity of his opponent. Bush appears to be trailing badly as the campaign begins.</p>",
+            "description": "<p>Ronald Reagan, who has served as President for the past eight years, has launched his fifth campaign for the top job, making him the first president in nearly 50 years to pursue a third consecutive term. He hopes to ride the wave of good polls, a stable world, a unified party, and strong economic numbers into a third term. While things seem sunny to most Republicans, there is always the persistent mumbling about the President’s age, his long tenure, and the unfolding Iran-Contra scandal. Can the Gipper do it one more time?</p>",
             "color_hex": "#CD1E1C",
             "secondary_color_hex": "#E0787D",
             "is_active": 1,
