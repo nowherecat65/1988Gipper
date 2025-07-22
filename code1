@@ -4,7 +4,7 @@ campaignTrail_temp.election_json = [
         "pk": 15,
         "fields": {
             "year": 1988,
-            "summary": "<p>After eight years of Ronald Reagan, the nation seems headed for a new direction in government.</p><ul><li>George Bush is Reagan's Vice President, but trails his challenger by several points.</li><li>Michael Dukakis, Governor of Massachusetts, is a new figure on the national scene. Can he keep the good feelings going through election day?</li></ul><p>Bush must find some way to shake up the race. He could emphasize the strong economy, or attack Dukakis on a number of fronts.</p>",
+            "summary": "<p>For the first time in nearly half a century, a sitting president is seeking a third consecutive term.</p><ul><li>President Ronald Reagan, ever the optimist, is hoping the country’s good mood and booming economy will overcome any doubts about age or tenure.</li><li>Michael Dukakis, Governor of Massachusetts, is a fresh face on the national stage. Can he convince voters that it’s time for a new direction, or will he, like Reagan’s previous challengers, fall short?</li></ul><p>As the campaign heats up, Reagan must decide whether to rest on his record of prosperity and stability, or take the offensive against Dukakis and his vision for change.</p>",
             "image_url": "https://www.jetsimon.com/public/static/images/1988-election-photo.jpg",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://www.jetsimon.com/public/static/images/atwater-estrich-1988.jpg",
@@ -128,7 +128,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>Dan Quayle has served as a Senator from Indiana for the past seven years. He would be an unexpected choice, and the first baby boomer to run on a national ticket. He does not have a long record of achievement at the highest stage, but he could have some appeal to social conservatives, Midwesterners, and younger voters. There is some skepticism about his intellect, and his campaigning and debating ability.</p>",
+            "description_as_running_mate": "<p>George Bush has served as Vice President for eight years, and despite his private wishes, his boss has decided to plunge in and run for a third consecutive term. Bush, who has a long record, including serving as UN Ambassador, head of the RNC, and Director of the CIA, was apparently let down by Reagan’s choice. Nonetheless, he is wearing his smile, standing by his man, and hoping that his own shot in 1992 won’t be politically suicidal. There is some chatter about Reagan selecting a younger upstart to replace Bush, but to most, that just seems like a silly rumor.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
