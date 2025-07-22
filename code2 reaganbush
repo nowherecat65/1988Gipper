@@ -9182,6 +9182,14 @@ campaignTrail_temp.answer_feedback_json = [
     }
 ]
 
+campaignTrail_temp.candidate_image_url = 'https://i.postimg.cc/KzPXgXC0/New-Project-2025-07-22-T162411-354.png';
+
+campaignTrail_temp.running_mate_image_url = 'https://i.postimg.cc/y69QN02n/New-Project-2025-07-22-T170846-722-1.png';
+
+campaignTrail_temp.candidate_last_name = 'Reagan';
+
+campaignTrail_temp.running_mate_last_name = 'Bush';
+
 
 
 campaignTrail_temp.jet_data = [{}
