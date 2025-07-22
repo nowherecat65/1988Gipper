@@ -114,44 +114,21 @@ campaignTrail_temp.candidate_json = [
         "model": "campaign_trail.candidate",
         "pk": 156,
         "fields": {
-            "first_name": "Dan",
-            "last_name": "Quayle",
+            "first_name": "George",
+            "last_name": "Bush",
             "election": 15,
             "party": "Republican",
-            "state": "Indiana",
+            "state": "Texas",
             "priority": 5,
             "description": "'",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
+            "color_hex": "#CD1E1C",
+            "secondary_color_hex": "#E0787D",
             "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/dan-quayle-1988.jpg",
+            "image_url": "https://i.postimg.cc/y69QN02n/New-Project-2025-07-22-T170846-722-1.png",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
             "description_as_running_mate": "<p>George Bush has served as Vice President for eight years, and despite his private wishes, his boss has decided to plunge in and run for a third consecutive term. Bush, who has a long record, including serving as UN Ambassador, head of the RNC, and Director of the CIA, was apparently let down by Reagan’s choice. Nonetheless, he is wearing his smile, standing by his man, and hoping that his own shot in 1992 won’t be politically suicidal. There is some chatter about Reagan selecting a younger upstart to replace Bush, but to most, that just seems like a silly rumor.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 157,
-        "fields": {
-            "first_name": "Bob",
-            "last_name": "Dole",
-            "election": 15,
-            "party": "Republican",
-            "state": "Kansas",
-            "priority": 6,
-            "description": "'",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/bob-dole-1988.jpg",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>Bob Dole was Bush's primary rival for the Republican nomination. He has served as a Senator from Kansas since 1969. He is the preferred choice of many in the party, and has a loyal following on Capitol Hill. Many believe he would help immensely in the farm states. On the other hand, Dole served as Gerald Ford's running mate in 1976, and made some over-the-top attacks on Jimmy Carter which served as a distraction. He and Bush also have lukewarm feelings for each other.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
@@ -350,14 +327,6 @@ campaignTrail_temp.running_mate_json = [
         "fields": {
             "candidate": 152,
             "running_mate": 156
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 99,
-        "fields": {
-            "candidate": 152,
-            "running_mate": 157
         }
     },
     {
