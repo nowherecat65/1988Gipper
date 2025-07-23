@@ -4,7 +4,7 @@ campaignTrail_temp.questions_json = [
         "pk": 69811,
         "fields": {
             "priority": 1,
-            "description": "As the days slip by, 1988 draws ever closer. In recent remarks, you’ve spoken about leaving your options open for the upcoming election. Many have quietly added two and two together, now expecting you to announce a campaign for re-election. How do you want to approach this?",
+            "description": "Let's take a step back... As the days slip by, 1988 draws ever closer. In recent remarks, you’ve spoken about leaving your options open for the upcoming election. Many have quietly added two and two together, now expecting you to announce a campaign for re-election. How do you want to approach this?",
             "likelihood": 1
         }
     },
