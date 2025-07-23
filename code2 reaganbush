@@ -31,7 +31,7 @@ campaignTrail_temp.questions_json = [
         "pk": 711,
         "fields": {
             "priority": 3,
-            "description": "Your selection of Dan Quayle has raised serious eyebrows, even among Republicans. What role will he play in your fall campaign?",
+            "description": "Despite your reportedly strong relationship, there were many rumors prior to the RNC suggesting that you were planning to drop Vice President Bush from the ticket and replace him with a younger face. Clearly, that didn’t materialize, so what role do you have in mind for Bush?",
             "likelihood": 1
         }
     },
@@ -505,7 +505,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4402,
         "fields": {
             "question": 711,
-            "description": "We're proud to have Dan Quayle on the ticket, and he will be making important appearances in key swing states this fall."
+            "description": "George comes across great on TV, didn’t you folks see him on with that Dan Rather? I want him out there, giving interviews, hitting the trail. He’s a natural."
         }
     },
     {
@@ -513,7 +513,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4403,
         "fields": {
             "question": 711,
-            "description": "The announcement of Quayle didn't go over quite like we wanted to. Let's have him campaign in safely Republican areas for the time being, until this furor subsides."
+            "description": "You know, I don’t think I ought to get too involved in the Vice President’s operation. He knows what he’s doing, and I respect that. Let George be."
         }
     },
     {
@@ -6493,7 +6493,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4402,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.025
+            "global_multiplier": 0.01112
         }
     },
     {
@@ -6503,7 +6503,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4403,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.005
+            "global_multiplier": 0.01112
         }
     },
     {
@@ -9028,7 +9028,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4402,
             "candidate": 152,
-            "answer_feedback": "Things went great for a few days, until Mr. Quayle laid down a whopper of a gaffe during a speech in Michigan, which was immediately picked up by the national news."
+            "answer_feedback": "And so, along with appearances at rallies and so forth, Vice President Bush has become one of your most vocal television spokesmen, eager to sit down with interviewers and passionately defend your shared record. Apparently, there’s some quiet resentment from Bushworld about him being ordered around, but who cares?"
         }
     },
     {
@@ -9037,7 +9037,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4403,
             "candidate": 152,
-            "answer_feedback": "This is probably your best course for the time being."
+            "answer_feedback": "It’s as if the Vice President is running his own campaign for the presidency, and according to some, that’s exactly what he hoped to be doing in 1988. Nonetheless, Bush, never much of a hatchet man, is sticking to the issues and his trademark warm, sunny optimism."
         }
     },
     {
