@@ -28,7 +28,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Republican",
             "state": "California",
             "priority": 1,
-            "description": "</h3><p><strong>CONTEXT ONLY.</strong><p><p>Ronald Reagan, who has served as President for the past eight years, has launched his fifth campaign for the top job, making him the first president in nearly 50 years to pursue a third consecutive term. He hopes to ride the wave of good polls, a stable world, a unified party, and strong economic numbers into a third term. While things seem sunny to most Republicans, there is always the persistent mumbling about the President’s age, his long tenure, and the unfolding Iran-Contra scandal. Can the Gipper do it one more time?</p>",
+            "description": "</h3><p><strong>POD: The 22nd Amendment is never ratified.</strong><p><p>Ronald Reagan, who has served as President for the past eight years, has launched his fifth campaign for the top job, making him the first president in nearly 50 years to pursue a third consecutive term. He hopes to ride the wave of good polls, a stable world, a unified party, and strong economic numbers into a third term. While things seem sunny to most Republicans, there is always the persistent mumbling about the President’s age, his long tenure, and the unfolding Iran-Contra scandal. Can the Gipper do it one more time?</p>",
             "color_hex": "#CD1E1C",
             "secondary_color_hex": "#E0787D",
             "is_active": 1,
