@@ -254,6 +254,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 43672,
+        "fields": {
+            "question": 698,
+            "description": "The Soviet bear is still out there, my friends. And while I have confidence, we have the steady hand, the experience, the know-how to deal with it, others, well... they don’t. I don’t trust, good-willing, a President Michael Dukakis and the liberal Democratic Party to keep our nation safe and secure."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 43671,
         "fields": {
             "question": 69811,
@@ -6252,6 +6260,16 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 2213,
         "fields": {
+            "answer": 43672,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.002
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2213,
+        "fields": {
             "answer": 43671,
             "candidate": 152,
             "affected_candidate": 152,
@@ -7068,7 +7086,17 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 4367,
             "issue": 58,
             "issue_score": -0.2,
-            "issue_importance": 2.5
+            "issue_importance": 2.75
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
+            "answer": 43672,
+            "issue": 58,
+            "issue_score": -0.3,
+            "issue_importance": 5.5
         }
     },
     {
@@ -7078,7 +7106,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 4367,
             "issue": 57,
             "issue_score": -0.15,
-            "issue_importance": 3
+            "issue_importance": 3.25
         }
     },
     {
