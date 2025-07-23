@@ -13,7 +13,7 @@ campaignTrail_temp.questions_json = [
         "pk": 698,
         "fields": {
             "priority": 1,
-            "description": "What message will you <em>most</em> emphasize as you accept the Republican Party nomination?",
+            "description": "Here you go again, after another primary contest where you faced only token opposition, you’ve secured the Republican nomination for President. With the RNC set to begin soon, what would you like to center your acceptance speech around?",
             "likelihood": 1
         }
     },
@@ -249,7 +249,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4367,
         "fields": {
             "question": 698,
-            "description": "I stand for the continuation of Ronald Reagan's policies and legacy. Let us allow an ascendant conservatism to guide us into the future."
+            "description": "Well… you know, it’s funny—these things come around, and it still feels new in a way. I suppose we ought to talk about what’s worked, freedom, growth, peace through strength… all of that. "
         }
     },
     {
@@ -281,7 +281,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4368,
         "fields": {
             "question": 698,
-            "description": "If we're going to talk about “competence” in government, which party has cut inflation, unemployment, and interest rates by over half during the 1980s?"
+            "description": "I’ve seen the news. The Democratic Party’s talking about new ideas,  but their ideas, well, they’re anything but new. They’re calling for a return to that kind of liberalism that, not too long ago, brought this great nation to its knees… just eight years ago. "
         }
     },
     {
@@ -6252,8 +6252,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 4367,
             "candidate": 152,
-            "affected_candidate": 153,
-            "global_multiplier": 0.005
+            "affected_candidate": 152,
+            "global_multiplier": 0.01
         }
     },
     {
@@ -6293,7 +6293,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4368,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": -0.008
+            "global_multiplier": -0.005
         }
     },
     {
@@ -8568,7 +8568,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4367,
             "candidate": 152,
-            "answer_feedback": "Reagan is popular, but people also want to see you distinguish yourself. There is an undertone of criticism that you lack influence, and that you don't stack up to Reagan."
+            "answer_feedback": "While you certainly have a strong record in the eyes of most conservative and Republican voters, many in the national press corps considered your speech something of a borefest. To them, and Democrats alike, it seems like you're planning to simply coast to victory."
         }
     },
     {
@@ -8604,7 +8604,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4368,
             "candidate": 152,
-            "answer_feedback": "Dukakis hammered on the “competence” theme in his speech. It is always good to fight back against that narrative."
+            "answer_feedback": "Michael Dukakis, to your supporters, is merely the next lamb being led to the slaughter for the cause of conservatism. But during his DNC speech, he made a point of talking at length about change and all things ''new'', a not-so-subtle step away from Jimmy Carter. Reminding voters of the facts here is the obvious move."
         }
     },
     {
