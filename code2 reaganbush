@@ -8577,7 +8577,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 43671,
             "candidate": 152,
-            "answer_feedback": "''Well, you know, Nancy and I have given this a lot of thought out at the ranch. These years have been… well, something special, for us and the country. There’s still some things, some work, that, I’d like to see through. So, I’ve decided I’ll be seeking another term as your President. And if you’ll have me, well, I’d be honored to keep at it''."
+            "answer_feedback": "''Well, you know, Nancy and I have given this a lot of thought out at the ranch. These years have been… well, something special, for us and the country. There’s still some things, some work, that, I’d like to see through. So, I’ve decided I’ll be seeking another term as your President. And if you’ll have me, well, I’d be honored to keep at it.''"
         }
     },
     {
@@ -8586,7 +8586,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 436712,
             "candidate": 152,
-            "answer_feedback": "''My friends, standing here with all of you out in California, it reminds me just how special this country is. These last eight years, we’ve come a long way together. We’ve worked to restore that American spirit, and I believe there’s still more to do. So today, I’m announcing that I am a candidate and will seek re-election to the office I presently hold.''."
+            "answer_feedback": "''My friends, standing here with all of you out in California, it reminds me just how special this country is. These last eight years, we’ve come a long way together. We’ve worked to restore that American spirit, and I believe there’s still more to do. So today, I’m announcing that I am a candidate and will seek re-election to the office I presently hold.''"
         }
     },
     {
@@ -8595,7 +8595,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4367123,
             "candidate": 152,
-            "answer_feedback": "''... Now, there’s still more to do. After much thought and prayer, and with faith in the path ahead, I am announcing my candidacy for re-election as President of the United States. If you’ll have me, well, I’d be honored to keep serving, working for a safer, stronger, and, well, a more hopeful America. Thank you, and God bless you all..''."
+            "answer_feedback": "''... Now, there’s still more to do. After much thought and prayer, and with faith in the path ahead, I am announcing my candidacy for re-election as President of the United States. If you’ll have me, well, I’d be honored to keep serving, working for a safer, stronger, and, well, a more hopeful America. Thank you, and God bless you all.''"
         }
     },
     {
