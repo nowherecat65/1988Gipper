@@ -241,7 +241,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4366,
         "fields": {
             "question": 698,
-            "description": "I will move the nation forward to a new era, with continued employment growth and concern for the well-being of our citizens -- a kinder, gentler era."
+            "description": "America is on the move today. For the last eight years, with your support, with good people in the administration, and, well, with a bit of luck from above, we’ve led this nation into one of the most prosperous times… well, in a long time. I’m happy to put that record up against anyone."
         }
     },
     {
@@ -288,8 +288,8 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 4369,
         "fields": {
-            "question": 698,
-            "description": "We need to take the attack to the Democrats after the convention they put on, and specifically challenge Dukakis on defense, economics, and social issues."
+            "question": 69888888888,
+            "description": "We sdf"
         }
     },
     {
@@ -7055,8 +7055,18 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4366,
             "issue": 57,
-            "issue_score": -0.1,
-            "issue_importance": 10
+            "issue_score": -0.23,
+            "issue_importance": 6
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
+            "answer": 4367,
+            "issue": 58,
+            "issue_score": -0.2,
+            "issue_importance": 2.5
         }
     },
     {
@@ -7065,8 +7075,38 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4367,
             "issue": 57,
-            "issue_score": -0.5,
-            "issue_importance": 10
+            "issue_score": -0.15,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
+            "answer": 4368,
+            "issue": 58,
+            "issue_score": -0.4,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
+            "answer": 4368,
+            "issue": 57,
+            "issue_score": -0.3,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
+            "answer": 4368,
+            "issue": 59,
+            "issue_score": -0.2,
+            "issue_importance": 1.5
         }
     },
     {
@@ -8559,7 +8599,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4366,
             "candidate": 152,
-            "answer_feedback": "This is a good theme which distinguishes your own brand from that of Reagan."
+            "answer_feedback": "Wow. To the shock of many Democrats who had been whispering about your age, and to the chagrin of your doubters, you proved them wrong and delivered an electrifying, unmistakably “Classic Reagan” speech, full of quips, big grins, and imagery of horizons."
         }
     },
     {
