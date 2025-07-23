@@ -22,7 +22,7 @@ campaignTrail_temp.questions_json = [
         "pk": 699,
         "fields": {
             "priority": 2,
-            "description": "How much will you emphasize your experience under Ronald Reagan, or in other roles, as you run for President?",
+            "description": "Uh-oh. Things are starting to get messy behind the scenes of your campaign. Ed Rollins, your campaign manager in 1984, was expected to keep his job, but several allies, others within the campaign, and even the First Lady now believe Rollins and his strategy will insulate you in a race that’s shaping up to be more competitive than 1984. The political press is running story after story, some even claiming your campaign is nearing a civil war. What should we do?",
             "likelihood": 1
         }
     },
@@ -297,7 +297,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4370,
         "fields": {
             "question": 699,
-            "description": "I want to tie myself to Reagan as closely as possible. He is a broadly popular figure in this country."
+            "description": "These fellas, they don’t realize. Rollins and his team, they’ve been with us through it all. Helped us win big last time, real big. We just need to stay the course. He’s staying."
         }
     },
     {
@@ -305,7 +305,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4371,
         "fields": {
             "question": 699,
-            "description": "I have served as Vice President for seven years. We will emphasize this experience, but talk more about what I will do, than what Ronald Reagan has done."
+            "description": "Fine, fine. I see it. Rollins did a fine job last time, and he ought to have a role in the campaign, but we need to hit harder, get out there more this time. I want... I want that Lee Atwater."
         }
     },
     {
@@ -313,7 +313,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4372,
         "fields": {
             "question": 699,
-            "description": "We don't plan to mention Ronald Reagan very much in this campaign. It is important to establish that I am my own man."
+            "description": "I-I, well, I don’t want to get bogged down in a fight here. Let Mommy, and some of our friends who know me best, decide the best course of action. There’s got to be a middle ground."
         }
     },
     {
@@ -6313,7 +6313,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4370,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.003
+            "global_multiplier": 0.03
         }
     },
     {
@@ -6323,7 +6323,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4371,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": -0.002
+            "global_multiplier": 0.0265
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2217,
+        "fields": {
+            "answer": 4372,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.029
         }
     },
     {
@@ -7175,8 +7185,48 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4370,
             "issue": 57,
-            "issue_score": -0.45,
-            "issue_importance": 4
+            "issue_score": -0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4370,
+            "issue": 58,
+            "issue_score": -0.2,
+            "issue_importance": 2.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4370,
+            "issue": 59,
+            "issue_score": -0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4370,
+            "issue": 60,
+            "issue_score": -0.15,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4370,
+            "issue": 61,
+            "issue_score": -0.15,
+            "issue_importance": 2
         }
     },
     {
@@ -7187,6 +7237,56 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 59,
             "issue_score": -0.2,
             "issue_importance": 5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4371,
+            "issue": 57,
+            "issue_score": -0.2,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4371,
+            "issue": 58,
+            "issue_score": -0.2,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4371,
+            "issue": 59,
+            "issue_score": -0.4,
+            "issue_importance": 2.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4371,
+            "issue": 60,
+            "issue_score": -0.2,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4371,
+            "issue": 61,
+            "issue_score": -0.2,
+            "issue_importance": 2
         }
     },
     {
@@ -7286,6 +7386,56 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 4479,
             "issue": 59,
             "issue_score": -0.1,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4372,
+            "issue": 57,
+            "issue_score": 0.05,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4372,
+            "issue": 58,
+            "issue_score": -0.1,
+            "issue_importance": 2.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4372,
+            "issue": 59,
+            "issue_score": 0.05,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4372,
+            "issue": 60,
+            "issue_score": 0.05,
+            "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1824,
+        "fields": {
+            "answer": 4372,
+            "issue": 61,
+            "issue_score": 0.05,
             "issue_importance": 2
         }
     },
@@ -8662,7 +8812,25 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4370,
             "candidate": 152,
-            "answer_feedback": "Reagan is popular, but people also want to see you distinguish yourself. There is an undertone of criticism that you lack influence, and that you don't stack up to Reagan."
+            "answer_feedback": "And so, despite everything, Ed Rollins remains at the helm. While you’ve managed to stave off an outright revolt, tensions still linger in the ranks, and many believe your campaign is far too casual. Word is that Lee Atwater, your deputy manager in ’84 and a real rabble-rouser, is unhappy with the current direction and has begun working nearly full-time on behalf of the Vice President and several Senate campaigns."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1859,
+        "fields": {
+            "answer": 4371,
+            "candidate": 152,
+            "answer_feedback": "Lee Atwater, your deputy campaign director back in 1984, is known for running a rough-and-tumble operation, and he’s built a strong reputation among the more hardline forces in your camp. It seems you’ve read the room well: both supporters and staff are rallying behind a shift toward a more aggressive strategy. Already, the campaign is revving into motion, with pamphlets and memos targeting the ''radical'' Democratic Party."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1859,
+        "fields": {
+            "answer": 4372,
+            "candidate": 152,
+            "answer_feedback": "And so, Nancy and your closest allies settle on Ken Khachigian, a trusted speechwriter and longtime friend. He’s not exactly a political brawler like Ed Rollins or Deputy Campaign Director Lee Atwater, but he’s drafted and formally joins the campaign as your newly minted campaign manager. Bringing in a conciliatory figure might seem like a smart move on paper, but many are left wondering whether Ken really has what it takes."
         }
     },
     {
