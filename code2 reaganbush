@@ -6263,7 +6263,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 43671,
             "candidate": 152,
             "affected_candidate": 152,
-            "global_multiplier": 0.1525
+            "global_multiplier": 0.301531
         }
     },
     {
@@ -6273,7 +6273,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 436712,
             "candidate": 152,
             "affected_candidate": 152,
-            "global_multiplier": 0.1525
+            "global_multiplier": 0.301532
         }
     },
     {
@@ -6283,7 +6283,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4367123,
             "candidate": 152,
             "affected_candidate": 152,
-            "global_multiplier": 0.1515
+            "global_multiplier": 0.301512
         }
     },
     {
