@@ -8558,7 +8558,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 436712,
             "candidate": 152,
-            "answer_feedback": "''Well, you know, standing here with all of you, out here in California, it reminds me just how special this country is. Over these last eight years, we’ve come a long way together. We’ve worked to restore that American spirit, and I believe there’s still more to do... I am, therefore, announcing that I am a candidate and will seek reelection to the office I presently hold.''."
+            "answer_feedback": "''My friends, standing here with all of you out in California, it reminds me just how special this country is. These last eight years, we’ve come a long way together. We’ve worked to restore that American spirit, and I believe there’s still more to do. So today, I’m announcing that I am a candidate and will seek re-election to the office I presently hold.''."
         }
     },
     {
