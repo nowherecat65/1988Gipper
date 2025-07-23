@@ -4450,7 +4450,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 461,
-            "state_multiplier": 1.2051
+            "state_multiplier": 1.21
         }
     },
     {
@@ -4531,7 +4531,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 470,
-            "state_multiplier": 1.151112111211234171
+            "state_multiplier": 1.161112111211234171
         }
     },
     {
@@ -4603,7 +4603,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 478,
-            "state_multiplier": 1.1501
+            "state_multiplier": 1.1601
         }
     },
     {
@@ -4621,7 +4621,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 480,
-            "state_multiplier": 1.2051
+            "state_multiplier": 1.211121112
         }
     },
     {
@@ -4675,7 +4675,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 486,
-            "state_multiplier": 1.12
+            "state_multiplier": 1.131
         }
     },
     {
@@ -4684,7 +4684,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 487,
-            "state_multiplier": 1.2098989898123456789
+            "state_multiplier": 1.2198989898123456789
         }
     },
     {
@@ -4738,7 +4738,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 493,
-            "state_multiplier": 1.1789813
+            "state_multiplier": 1.185129813
         }
     },
     {
@@ -4846,7 +4846,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 505,
-            "state_multiplier": 1.0799
+            "state_multiplier": 1.0912341234
         }
     },
     {
