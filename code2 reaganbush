@@ -9350,6 +9350,8 @@ campaignTrail_temp.candidate_last_name = 'Reagan';
 
 campaignTrail_temp.running_mate_last_name = 'Bush';
 
+campaignTrail_temp.running_mate_state_id = '498';
+
 
 
 campaignTrail_temp.jet_data = [{}
