@@ -8778,7 +8778,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4367,
             "candidate": 152,
-            "answer_feedback": "While you certainly have a strong record in the eyes of most conservative and Republican voters, many in the national press corps considered your speech something of a borefest. To them, and Democrats alike, it seems like you're planning to simply coast to victory."
+            "answer_feedback": "While you certainly have a strong record in the eyes of most conservative and Republican voters, many in the national press corps considered your speech something of a never-ending borefest. To them, and to many Democrats, it seems like you’re planning to simply coast to victory."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1856,
+        "fields": {
+            "answer": 43672,
+            "candidate": 152,
+            "answer_feedback": "From the moment the standing applause ended, you launched into an aggressive, and what some in the press might call fearmongering, speech targeting the Democratic Party as wholly ill-prepared and incapable of handling the ongoing Cold War. Many Americans, of course, still trust you on matters of defense, so this might just be the right approach."
         }
     },
     {
