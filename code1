@@ -128,7 +128,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>George Bush has served as Vice President for eight years, and despite his private wishes, his boss has decided to plunge in and run for a third consecutive term. Bush, who has a long record, including serving as UN Ambassador, head of the RNC, and Director of the CIA, was apparently let down by Reagan’s choice. Nonetheless, he is wearing his smile, standing by his man, and hoping that his own shot in 1992 won’t be politically suicidal. There is some chatter about Reagan selecting a younger upstart to replace Bush, but to most, that just seems like a silly rumor.</p>",
+            "description_as_running_mate": "<p>George Bush has served as Vice President for eight years, and despite his private wishes, his boss has decided to plunge in and run for a third term. Bush, who has a long record, including serving as UN Ambassador, head of the RNC, and Director of the CIA, was apparently let down by Reagan’s choice. Nonetheless, he is wearing his smile, standing by his man, and hoping that his own shot in 1992 won’t be politically suicidal. There is some chatter about Reagan selecting a younger upstart to replace Bush, but to most, that just seems like a silly rumor.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
