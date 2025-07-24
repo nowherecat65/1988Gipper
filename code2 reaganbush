@@ -49,7 +49,7 @@ campaignTrail_temp.questions_json = [
         "pk": 700,
         "fields": {
             "priority": 3,
-            "description": "What points about your opponent, Michael Dukakis, will you emphasize as you campaign?",
+            "description": "Michael Dukakis appears, at least on paper, to be a more resilient opponent than either Carter or Mondale. Still, many of your supporters see him as just the next in a long line of Democratic losers. How do you want to approach targeting the Governor as you campaign?",
             "likelihood": 1
         }
     },
@@ -329,7 +329,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4373,
         "fields": {
             "question": 700,
-            "description": "Dukakis bases his campaign on competence, but his state was simply riding the wave of a Reagan-created economic boom, which he tries to take credit for."
+            "description": "You know, Michael Dukakis likes to talk about a ''Massachusetts Miracle'', but the real miracle, my friends, is the Great American Miracle we've seen over these past eight years. Let’s not turn back now. Let’s keep the good times going."
         }
     },
     {
@@ -337,7 +337,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4374,
         "fields": {
             "question": 700,
-            "description": "Dukakis is a left-wing liberal who has vetoed the Pledge of Allegiance, attacked military spending, and allowed convicted murderers into society."
+            "description": "Governor Dukakis says he wants to move America forward, but with all the taxes, regulations, and government programs he’s proposing, straight from the old liberal playbook, well… I think he’d have us pedaling backward on a bicycle built by bureaucrats."
         }
     },
     {
@@ -345,7 +345,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4375,
         "fields": {
             "question": 700,
-            "description": "Dukakis is a good man with a good record as Governor of Massachusetts. I prefer to focus on my own qualifications and experience for the job."
+            "description": "Well... I don’t want to pick on an invalid. Dukakis is in over his head, and, I think, America knows it. I want to stay focused on our record, and just how far we’ve come these past eight years."
         }
     },
     {
@@ -6352,7 +6352,7 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 4373,
             "candidate": 152,
-            "affected_candidate": 153,
+            "affected_candidate": 152,
             "global_multiplier": -0.008
         }
     },
@@ -6360,10 +6360,10 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 2219,
         "fields": {
-            "answer": 4374,
+            "answer": 4373,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": -0.0375
+            "global_multiplier": 0.02
         }
     },
     {
@@ -6868,12 +6868,52 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 2337,
+        "pk": 2335,
         "fields": {
-            "answer": 4525,
+            "answer": 4524,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.08112
+            "global_multiplier": 0.09951
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2337,
+        "fields": {
+            "answer": 4375,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2337,
+        "fields": {
+            "answer": 4375,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.0125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2337,
+        "fields": {
+            "answer": 4374,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0225
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2337,
+        "fields": {
+            "answer": 4374,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.0125
         }
     },
     {
@@ -8868,7 +8908,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4373,
             "candidate": 152,
-            "answer_feedback": "Dukakis hammered on the “competence” theme in his speech. It is always good to fight back against that narrative."
+            "answer_feedback": "Clever quip there, Mr. President, you’ve still got it! The fact of the matter is, people generally feel warmly about your eight years in office. And with the exception of liberals, many Americans have an almost intuitive trust in you and your economic judgment."
         }
     },
     {
@@ -8877,7 +8917,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4374,
             "candidate": 152,
-            "answer_feedback": "Many advisors believe that your only chance to come back against Dukakis is to go on the attack."
+            "answer_feedback": "This rhetoric reminds many of the kind you used to slay the liberal dragon four and eight years ago. And as a socially liberal governor from Massachusetts, home of the Kennedys and Harvard, who opposes the death penalty, it doesn’t seem like much of a stretch to paint him as out of touch."
         }
     },
     {
@@ -8886,7 +8926,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4375,
             "candidate": 152,
-            "answer_feedback": "This is definitely a passive answer for the situation you are currently facing."
+            "answer_feedback": ""For better or worse, you don’t seem particularly intimidated by the Dukakis campaign, instead choosing to focus on optimistic rhetoric about your record. "
         }
     },
     {
