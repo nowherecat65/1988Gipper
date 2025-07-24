@@ -8926,7 +8926,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4375,
             "candidate": 152,
-            "answer_feedback": ""For better or worse, you don’t seem particularly intimidated by the Dukakis campaign, instead choosing to focus on optimistic rhetoric about your record. "
+            "answer_feedback": "For better or worse, you don’t seem particularly intimidated by the Dukakis campaign, instead choosing to focus on optimistic rhetoric about your record. "
         }
     },
     {
