@@ -67,7 +67,7 @@ campaignTrail_temp.questions_json = [
         "pk": 754,
         "fields": {
             "priority": 4,
-            "description": "Could more have been done to prevent the current farm crisis, which has devastated the upper Midwest?",
+            "description": "The so-called farm crisis is currently ravaging the Plains and the Midwest, many local farmers are deeply in debt, people are leaving the affected states, and, needless to say, it's hurting both your support and your argument for economic solvency. How should we deal with this?",
             "likelihood": 1
         }
     },
