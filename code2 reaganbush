@@ -342,6 +342,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 43741,
+        "fields": {
+            "question": 700,
+            "description": "We’ve come too far, made too much progress, to hand over our national security to someone who, well, who doesn’t seem all that sure about the responsibilities that come with American power. I want to point this out whenever I get the chance."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 4375,
         "fields": {
             "question": 700,
@@ -6353,7 +6361,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4373,
             "candidate": 152,
             "affected_candidate": 152,
-            "global_multiplier": -0.008
+            "global_multiplier": 0.009
         }
     },
     {
@@ -6860,7 +6868,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 2335,
         "fields": {
-            "answer": 4524,
+            "answer": 4525,
             "candidate": 152,
             "affected_candidate": 153,
             "global_multiplier": 0.09951
@@ -6913,7 +6921,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4374,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.0125
+            "global_multiplier": -0.0125
         }
     },
     {
@@ -7293,10 +7301,30 @@ campaignTrail_temp.answer_score_issue_json = [
         "model": "campaign_trail.answer_score_issue",
         "pk": 1825,
         "fields": {
-            "answer": 4375,
+            "answer": 4374,
             "issue": 59,
             "issue_score": -0.2,
-            "issue_importance": 5
+            "issue_importance": 2.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1825,
+        "fields": {
+            "answer": 43741,
+            "issue": 58,
+            "issue_score": -0.3,
+            "issue_importance": 5.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1825,
+        "fields": {
+            "answer": 4373,
+            "issue": 57,
+            "issue_score": -0.35,
+            "issue_importance": 5.0
         }
     },
     {
@@ -7356,7 +7384,17 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 4375,
             "issue": 60,
             "issue_score": -0.2,
-            "issue_importance": 5
+            "issue_importance": 2.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1826,
+        "fields": {
+            "answer": 4374,
+            "issue": 60,
+            "issue_score": -0.35,
+            "issue_importance": 5.0
         }
     },
     {
@@ -8918,6 +8956,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 4374,
             "candidate": 152,
             "answer_feedback": "This rhetoric reminds many of the kind you used to slay the liberal dragon four and eight years ago. And as a socially liberal governor from Massachusetts, home of the Kennedys and Harvard, who opposes the death penalty, it doesn’t seem like much of a stretch to paint him as out of touch."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1861,
+        "fields": {
+            "answer": 43741,
+            "candidate": 152,
+            "answer_feedback": "Michael Dukakis, of course, the Governor of Massachusetts, doesn’t really have the foreign policy chops to keep up with you, nor the record of accomplishments achieved over the past eight years. Exploiting that fact seems like an obvious path forward."
         }
     },
     {
