@@ -769,7 +769,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4515,
         "fields": {
             "question": 754,
-            "description": "Unfortunately, the economics of farming cannot support the number of farmers who were borrowing money in the early 1980s."
+            "description": "You know, there’s a saying, lies, damned lies, and statistics. Now, I won’t pretend it’s been easy for the American farmer lately. But I submit to you that the economic standing of our country is growing, steadily, surely..."
         }
     },
     {
@@ -777,7 +777,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4516,
         "fields": {
             "question": 754,
-            "description": "We need to increase the support for American agriculture by fighting for exports in our trade deals -- with the Soviet Union, Mexico, and elsewhere."
+            "description": "It’s really quite simple, what we need to do is increase our exports. Now that our standing in the world is more secure, I want to sit down with nations across the globe and make some good deals, open new markets, so folks everywhere can enjoy the fruits of American labor. "
         }
     },
     {
@@ -785,7 +785,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4517,
         "fields": {
             "question": 754,
-            "description": "We could have stabilized this situation much earlier with aggressive intervention from the federal government. This is the type of thing I would have done if I were President."
+            "description": "You know, this is one area where I’ve been disappointed by the pace of our progress. We need to do more for the family farmer. Last year, we passed some financial assistance, and I’m fully prepared, if given the chance in another term, to do more."
         }
     },
     {
@@ -6821,17 +6821,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4515,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.012
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 2331,
-        "fields": {
-            "answer": 4515,
-            "candidate": 153,
-            "affected_candidate": 153,
-            "global_multiplier": -0.03
+            "global_multiplier": 0.0183
         }
     },
     {
@@ -6841,7 +6831,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4517,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.03
+            "global_multiplier": 0.0125
         }
     },
     {
@@ -7119,9 +7109,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 2363,
         "fields": {
             "answer": 4516,
-            "candidate": 153,
+            "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": -0.008
+            "global_multiplier": 0.0125
         }
     }
 ]
@@ -7455,6 +7445,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 60,
             "issue_score": -0.15,
             "issue_importance": 1.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1826,
+        "fields": {
+            "answer": 4517,
+            "issue": 57,
+            "issue_score": 0.15,
+            "issue_importance": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1826,
+        "fields": {
+            "answer": 4516,
+            "issue": 57,
+            "issue_score": 0.05,
+            "issue_importance": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1826,
+        "fields": {
+            "answer": 4515,
+            "issue": 57,
+            "issue_score": -0.2,
+            "issue_importance": 1.5
         }
     },
     {
@@ -9508,18 +9528,18 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 1986,
         "fields": {
-            "answer": 4515,
+            "answer": 4516,
             "candidate": 152,
-            "answer_feedback": "Your comments make the nightly news, and are somewhat controversial in the farm states."
+            "answer_feedback": "This is a solid, broad answer to help assuage concerns about the ongoing farm crisis, but you sound more like someone running for their first term as president than a president seeking a third. Nonetheless, it does the job. "
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 1987,
+        "pk": 1986,
         "fields": {
             "answer": 4515,
-            "candidate": 153,
-            "answer_feedback": "This is not a popular answer in the farm states, and seems surprisingly glib on economic plight for a Democrat."
+            "candidate": 152,
+            "answer_feedback": "This kind of sentiment would be damaging for any other Republican to say out loud, but for you, it just doesn’t seem to stick. They don’t call you ''Teflon Ron'' for nothing, Mr. President. "
         }
     },
     {
@@ -9528,7 +9548,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4517,
             "candidate": 152,
-            "answer_feedback": "You seem to be admitting that the Reagan Administration made a big mistake here, and that you either contributed or were not involved in the big choices."
+            "answer_feedback": "It sounds like you're stepping on your own record, at least to some of your more hardline allies and campaign aides. Still, this might be the necessary path to take, given that many farmers feel unheard by your administration."
         }
     },
     {
