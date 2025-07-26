@@ -390,14 +390,6 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 4383,
-        "fields": {
-            "question": 703,
-            "description": "We will refer to this episode on our campaign speeches and so on, but it doesn't need to be a central aspect of our message."
-        }
-    },
-    {
-        "model": "campaign_trail.answer",
         "pk": 4384,
         "fields": {
             "question": 703,
