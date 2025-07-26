@@ -76,7 +76,7 @@ campaignTrail_temp.questions_json = [
         "pk": 706,
         "fields": {
             "priority": 4,
-            "description": "To what extent will you attack Dukakis's bill, in 1971, to decriminalize sodomy and bestiality in the Massachusetts Congress?",
+            "description": "Your ''Ten-Point Plan for Continued American Growth'' rollout was supposed to buy your campaign a few good news days. It promised to make the 1986 tax cuts permanent, reform capital gains taxes, and further deregulate the energy sector. But within 24 hours, the Dukakis campaign, and a number of liberal journalists, have begun seizing on what’s not included: no mention of healthcare costs, childcare access, urban development, or anything beyond the barest reference to higher education. Some of your aides are calling for you to publicly amend the plan, while others are urging you to stay the course. What will you do?",
             "likelihood": 1
         }
     },
