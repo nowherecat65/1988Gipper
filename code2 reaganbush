@@ -457,7 +457,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4391,
         "fields": {
             "question": 706,
-            "description": "This is yet another example of Dukakis's poor judgment when it comes to defending American values."
+            "description": "That was just part one! In my third term, I’m determined to make sure prosperity reaches everyone, and that includes the urban areas that haven’t quite... well, felt it yet. Get Joh—I mean, Jack Kemp on the phone. He’ll know what to do. "
         }
     },
     {
@@ -465,7 +465,15 @@ campaignTrail_temp.answers_json = [
         "pk": 4392,
         "fields": {
             "question": 706,
-            "description": "I think we need to preserve a level of dignity in this campaign, and talking about things like sodomy and bestiality might be a little bit too far for some people."
+            "description": "I don’t give a darn what the press is saying, of course we care about young people, and Black people too. This is a smear job, plain and simple. Let’s just... stick to the schedule. No need to get sidetracked now."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 43921,
+        "fields": {
+            "question": 706,
+            "description": "The fact of the matter is, securing our tax reform for the long term, and doing more for the American taxpayer, will help everyone in this big, great, and loving country. I care about everyone, as does every single person in my administration. And I’m... I’m proud of what we’ve been able to do."
         }
     },
     {
@@ -6509,7 +6517,57 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4391,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.04
+            "global_multiplier": 0.021
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2230,
+        "fields": {
+            "answer": 4392,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.024
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2230,
+        "fields": {
+            "answer": 4392,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2230,
+        "fields": {
+            "answer": 43921,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0025
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2230,
+        "fields": {
+            "answer": 4391,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2230,
+        "fields": {
+            "answer": 43921,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.024
         }
     },
     {
@@ -7651,8 +7709,38 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4391,
             "issue": 59,
-            "issue_score": -0.6,
-            "issue_importance": 12
+            "issue_score": 0.3,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1832,
+        "fields": {
+            "answer": 4392,
+            "issue": 59,
+            "issue_score": -0.15,
+            "issue_importance": 2.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1832,
+        "fields": {
+            "answer": 43921,
+            "issue": 59,
+            "issue_score": -0.15,
+            "issue_importance": 1.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1832,
+        "fields": {
+            "answer": 43921,
+            "issue": 57,
+            "issue_score": -0.3,
+            "issue_importance": 1.25
         }
     },
     {
@@ -9279,7 +9367,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4391,
             "candidate": 152,
-            "answer_feedback": "Unfortunately, the word “bestiality” is making some voters question the ugliness of this campaign. Advisors agree that you should pump the brakes on your attacks for the time being."
+            "answer_feedback": "Congressman ''John'' Kemp, famed for his supply-side message tailored specifically toward poor, underserved, or, simply put, Black Americans, is more than happy to speak about some of his legislative plans for opportunity zones and the like, stating with full certainty that your administration will be more ''transparent'' and ''activist'' when it comes to these communities. While this ruffles feathers among parts of your base, it may be a necessary move given the recent news cycle."
         }
     },
     {
@@ -9288,7 +9376,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4392,
             "candidate": 152,
-            "answer_feedback": "Even Lee Atwater thinks that this attack would be a bridge too far."
+            "answer_feedback": "While not engaging directly with the press circus is a commendable strategy, it appears their commentary is getting under your skin more than anyone in the campaign anticipated. At a brief press conference ahead of a scheduled rally, you responded sharply to a question you felt was unfair, declaring, ''Those people don’t want help ... They want handouts and excuses. We’ve given them everything short of a parade!'' "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1876,
+        "fields": {
+            "answer": 43921,
+            "candidate": 152,
+            "answer_feedback": "And so you do stick to your routine, more rallies, more three-minute press conferences. All the press wants to talk about is the Democratic attack on your ''Ten-Point Plan for Continued American Growth,'' and all you want to talk about is the growth of the economy. When will they get over it?"
         }
     },
     {
