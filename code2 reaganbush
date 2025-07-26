@@ -58,7 +58,7 @@ campaignTrail_temp.questions_json = [
         "pk": 705,
         "fields": {
             "priority": 4,
-            "description": "To what extent will you attack Dukakis's opposition to the military actions in Granada and Libya?",
+            "description": "While you largely sailed through the Republican primary, one issue has concerned even some of your own supporters: your age. At 77, you’re already the oldest president in history. By the end of a third term, you’d be 83. And while you appear relatively spry, leaks have claimed you mix up names, show signs of forgetfulness, and appear lethargic at times. Do you plan to address this?",
             "likelihood": 1
         }
     },
@@ -433,7 +433,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4388,
         "fields": {
             "question": 705,
-            "description": "Opposing these actions places any candidate well outside of the American mainstream. We will attack Dukakis relentlessly on this point."
+            "description": "Well, I've heard those rumors, maybe I did mix up a name or two. But after eight years of working day and night for the American people, I think I’ve earned a mulligan here and there."
         }
     },
     {
@@ -441,7 +441,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4389,
         "fields": {
             "question": 705,
-            "description": "These were poorly thought out positions, and we will highlight that, but we should spend most of the campaign focusing on my own merits."
+            "description": "Well, I don’t pay much mind to rumors. Truth is, folks have been saying I’m too old since, well, even before I first ran. But I think it’s important we put these stories to rest, publicly and plainly."
         }
     },
     {
@@ -449,7 +449,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4390,
         "fields": {
             "question": 705,
-            "description": "Reasonable people can disagree on the merits of these actions. We don't have much to gain by bringing them into the campaign."
+            "description": "This is a bunch of baloney. The liberal press doesn’t know what they’re talking about, they’re more concerned with covering for Governor Dukakis than serving the American people. At my next few rallies, I want to talk about how disgracefully the press has treated this administration."
         }
     },
     {
@@ -6416,6 +6416,36 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 2228,
+        "fields": {
+            "answer": 4388,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0056
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2229,
+        "fields": {
+            "answer": 4389,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0063
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2229,
+        "fields": {
+            "answer": 4390,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0075
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 2226,
         "fields": {
             "answer": 4385,
@@ -6441,7 +6471,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4388,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": -0.045
+            "global_multiplier": 0.025
         }
     },
     {
@@ -6451,7 +6481,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4389,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": -0.005
+            "global_multiplier": 0.036
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2229,
+        "fields": {
+            "answer": 4390,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.031
         }
     },
     {
@@ -7511,10 +7551,20 @@ campaignTrail_temp.answer_score_issue_json = [
         "model": "campaign_trail.answer_score_issue",
         "pk": 1830,
         "fields": {
+            "answer": 4388,
+            "issue": 58,
+            "issue_score": -0.56,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1830,
+        "fields": {
             "answer": 4389,
             "issue": 58,
             "issue_score": -0.42,
-            "issue_importance": 4
+            "issue_importance": 0.5
         }
     },
     {
@@ -7524,7 +7574,7 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 4390,
             "issue": 58,
             "issue_score": -0.3,
-            "issue_importance": 5
+            "issue_importance": 0.5
         }
     },
     {
@@ -9134,7 +9184,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4388,
             "candidate": 152,
-            "answer_feedback": "On yet another issue, Dukakis does not mount an effective defense or counterattack to your campaign."
+            "answer_feedback": "Funny line, Mr. President, but you don’t seem to fully appreciate people’s concerns here. Still, a bit of wit should help with the perception, at least to some degree. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1873,
+        "fields": {
+            "answer": 4389,
+            "candidate": 152,
+            "answer_feedback": "Soon after, at a tarmac press conference outside Philadelphia, you angrily and forcefully denied the accusations. In the heat of the moment, however, you appeared to mix up the names of two reporters involved in the story, unintentionally pouring gasoline on the fire. "
         }
     },
     {
@@ -9143,7 +9202,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4390,
             "candidate": 152,
-            "answer_feedback": "Advisors feel that you are definitely leaving something on the table."
+            "answer_feedback": "Typically, the words of Washington, D.C. and New York City's chattering class have rolled off your back, but on this question, you seem angrier and more perturbed than usual. While your supporters appreciate the forcefulness, many swing voters, simply concerned about your age, are left uneasy."
         }
     },
     {
