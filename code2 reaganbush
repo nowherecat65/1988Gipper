@@ -85,7 +85,7 @@ campaignTrail_temp.questions_json = [
         "pk": 713,
         "fields": {
             "priority": 4,
-            "description": "To what extent will your campaign focus on your service as an airman in World War II?",
+            "description": "Larry Pressler, the independent-minded Senator from South Dakota, and the only serious Republican willing to challenge you in the primary, spoke against your administration’s handling of the farm crisis and criticized the 'imperial' decision to seek a third term. Now, some of his comments are being featured in advertisements for the Dukakis campaign. How should we respond, if at all? ",
             "likelihood": 1
         }
     },
@@ -545,7 +545,15 @@ campaignTrail_temp.answers_json = [
         "pk": 4405,
         "fields": {
             "question": 713,
-            "description": "We will run a heavily biographical campaign this fall, including ads which highlight my military service."
+            "description": "I want to take a moment to say that our Republican Party is one of bold colors, and it includes voices from all walks of life. I welcomed Senator Pressler’s challenge, and I respect anyone willing to stand up and speak their mind in a democracy."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 44055,
+        "fields": {
+            "question": 713,
+            "description": "Well, I don't think it helps to get bogged down in a fight among our own. You remember the Eleventh Commandment. Let's stay the course, and let the Democrats run whatever ads they’re running. "
         }
     },
     {
@@ -553,7 +561,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4406,
         "fields": {
             "question": 713,
-            "description": "Obviously we'll mention this some, but our main focus will be on the here and now."
+            "description": "Two can play at that game. Michael Dukakis, well, he wasn’t even the first choice of his own party. I remember that primary, and I think most folks do too. We ought to remind people of their divisions, their contradictions, like the fact that his running mate, Senator Bentsen, doesn’t even agree with him on some of the big issues."
         }
     },
     {
@@ -6576,6 +6584,56 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 2240,
+        "fields": {
+            "answer": 4405,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2240,
+        "fields": {
+            "answer": 44055,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2240,
+        "fields": {
+            "answer": 44055,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0101
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2240,
+        "fields": {
+            "answer": 4406,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2240,
+        "fields": {
+            "answer": 4406,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 2295,
         "fields": {
             "answer": 4480,
@@ -9320,7 +9378,25 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4405,
             "candidate": 152,
-            "answer_feedback": "The potential upside of this message is complicated by the controversy over Dan Quayle's National Guard service."
+            "answer_feedback": "This sort of vague, non-conciliatory language doesn’t do much to counter the ads currently being aired by the Dukakis campaign, but at least it doesn’t offend anyone."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1889,
+        "fields": {
+            "answer": 44055,
+            "candidate": 152,
+            "answer_feedback": "In isolation, the sentiment of keeping internal party disputes out of the mainstream is sensible. But the larger issue is that you’ve made little effort to win back ''iffy'' or concerned voters after the primary, not to mention Dukakis's ads."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1889,
+        "fields": {
+            "answer": 4406,
+            "candidate": 152,
+            "answer_feedback": "Fair enough, Dukakis clearly faced a tougher battle for his party’s nomination. But bear in mind, you’re a two-term president now seeking a third, and your comments don’t change the fact that a loud, but small minority of Republicans remain uneasy with that decision."
         }
     },
     {
