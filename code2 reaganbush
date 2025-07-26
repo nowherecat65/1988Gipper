@@ -76,7 +76,7 @@ campaignTrail_temp.questions_json = [
         "pk": 706,
         "fields": {
             "priority": 4,
-            "description": "Your ''Ten-Point Plan for Continued American Growth'' rollout was supposed to buy your campaign a few good news days. It promised to make the 1986 tax cuts permanent, reform capital gains taxes, and further deregulate the energy sector. But within 24 hours, the Dukakis campaign, and a number of liberal journalists, have begun seizing on what’s not included: no mention of healthcare costs, childcare access, urban development, or anything beyond the barest reference to higher education. Some of your aides are calling for you to publicly amend the plan, while others are urging you to stay the course. What will you do?",
+            "description": "Your ''Ten-Point Plan for Continued American Growth'' rollout was supposed to buy your campaign a few good news days. It promised to make the 1986 tax cuts permanent, reform capital gains taxes, and further deregulate the energy sector. But within 24 hours, the Dukakis campaign, along with a chorus of liberal journalists, has seized on what’s missing: no mention of healthcare costs, childcare access, urban development, or more than a passing nod to higher education. Some of your aides are urging you to publicly amend the plan. Others say stay the course. What will you do?",
             "likelihood": 1
         }
     },
