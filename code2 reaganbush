@@ -561,7 +561,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4406,
         "fields": {
             "question": 713,
-            "description": "Two can play at that game. Michael Dukakis, well, he wasn’t even the first choice of his own party. I remember that primary, and I think most folks do too. We ought to remind people of their divisions, their contradictions, like the fact that his running mate, Senator Bentsen, doesn’t even agree with him on some of the big issues."
+            "description": "Two can play at that game. Michael Dukakis, well, he wasn’t even the first choice of his own party. I remember that primary, and I think most folks do too. We ought to remind people of their divisions, their contradictions, such as the fact that his running mate, Senator Bentsen, doesn’t even agree with him on some of the big issues."
         }
     },
     {
