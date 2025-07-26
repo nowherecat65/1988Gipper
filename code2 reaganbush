@@ -4618,7 +4618,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 477,
-            "state_multiplier": 1.253129989998654
+            "state_multiplier": 1.273129989998654
         }
     },
     {
@@ -4654,7 +4654,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 481,
-            "state_multiplier": 1.11
+            "state_multiplier": 1.121
         }
     },
     {
@@ -4726,7 +4726,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 489,
-            "state_multiplier": 1.1398
+            "state_multiplier": 1.15
         }
     },
     {
@@ -4789,7 +4789,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 496,
-            "state_multiplier": 1.2558
+            "state_multiplier": 1.2668
         }
     },
     {
