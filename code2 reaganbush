@@ -4456,7 +4456,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 459,
-            "state_multiplier": 1.20873462
+            "state_multiplier": 1.21973462
         }
     },
     {
@@ -4519,7 +4519,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 466,
-            "state_multiplier": 1.318788998998
+            "state_multiplier": 1.338788998998
         }
     },
     {
@@ -4537,7 +4537,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 468,
-            "state_multiplier": 1.3353699876989851231998578989876987654321
+            "state_multiplier": 1.3531123699876989851231998578989876987654321
         }
     },
     {
@@ -4582,7 +4582,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 473,
-            "state_multiplier": 1.2337797779
+            "state_multiplier": 1.2487797779
         }
     },
     {
@@ -4645,7 +4645,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 480,
-            "state_multiplier": 1.3211212121
+            "state_multiplier": 1.3311212121
         }
     },
     {
@@ -4735,7 +4735,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 490,
-            "state_multiplier": 1.25698798998129989983213
+            "state_multiplier": 1.259989988798998129989983213
         }
     },
     {
@@ -4762,7 +4762,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 493,
-            "state_multiplier": 1.38629981312987689987129813
+            "state_multiplier": 1.39529981312987689987129813
         }
     },
     {
@@ -4978,7 +4978,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 153,
             "state": 466,
-            "state_multiplier": 1.191212345
+            "state_multiplier": 1.171212345
         }
     },
     {
@@ -9409,7 +9409,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4391,
             "candidate": 152,
-            "answer_feedback": "Congressman ''John'' Kemp, famed for his supply-side message tailored specifically toward poor, underserved, or, simply put, Black Americans, is more than happy to speak about some of his legislative plans for opportunity zones and the like, stating with full certainty that your administration will be more ''transparent'' and ''activist'' when it comes to these communities. While this ruffles feathers among parts of your base, it may be a necessary move given the recent news cycle."
+            "answer_feedback": "Rep. ''John'' Kemp, known for his supply-side message tailored to poor, underserved, particularly Black Americans, is more than willing to discuss his legislative plans for opportunity zones and the like. He asserts confidently that your administration will be more ''transparent'' in serving these communities. While this ruffles feathers within parts of your base, it may be a necessary move given the recent news cycle."
         }
     },
     {
@@ -9418,7 +9418,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4392,
             "candidate": 152,
-            "answer_feedback": "While not engaging directly with the press circus is a commendable strategy, it appears their commentary is getting under your skin more than anyone in the campaign anticipated. At a brief press conference ahead of a scheduled rally, you responded sharply to a question you felt was unfair, declaring, ''Those people don’t want help ... They want handouts and excuses. We’ve given them everything short of a parade!'' "
+            "answer_feedback": "While not engaging directly with the press circus is a commendable strategy, it appears their commentary is getting under your skin more than anyone in the campaign anticipated. At a brief press conference ahead of a scheduled rally, you responded sharply to a question you felt was unfair, declaring, ''Those people don’t want help ... They want handouts and excuses!'' "
         }
     },
     {
