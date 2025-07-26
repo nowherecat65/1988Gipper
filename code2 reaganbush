@@ -8999,7 +8999,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4370,
             "candidate": 152,
-            "answer_feedback": "And so, despite everything, Ed Rollins remains at the helm. While you’ve managed to stave off an outright revolt, tensions still linger in the ranks, and many believe your campaign is far too casual. Word is that Lee Atwater, your deputy manager in ’84 and a real rabble-rouser, is unhappy with the current direction and has begun working nearly full-time on behalf of the Vice President and several Senate campaigns."
+            "answer_feedback": "Despite everything, Ed Rollins remains at the helm. You’ve managed to stave off an outright revolt, but tensions linger, and many believe the campaign is too casual. Word is, Lee Atwater, your fiery deputy in ’84, is unhappy with the current direction and now works nearly full-time for the Vice President and several Senate races."
         }
     },
     {
@@ -9008,7 +9008,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4371,
             "candidate": 152,
-            "answer_feedback": "Lee Atwater, your deputy campaign director back in 1984, is known for running a rough-and-tumble operation, and he’s built a strong reputation among the more hardline forces in your camp. It seems you’ve read the room well: both supporters and staff are rallying behind a shift toward a more aggressive strategy. Already, the campaign is revving into motion, with pamphlets and memos targeting the ''radical'' Democratic Party."
+            "answer_feedback": "Lee Atwater, your deputy campaign director in 1984, is known for his rough-and-tumble style and has built a strong reputation among the hardliners in your camp. You’ve clearly read the room: supporters and staff alike are rallying behind a shift to a more aggressive strategy. The campaign is already revving up, with pamphlets and memos targeting Dukakis."
         }
     },
     {
@@ -9017,7 +9017,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4372,
             "candidate": 152,
-            "answer_feedback": "And so, Nancy and your closest allies settle on Ken Khachigian, a trusted speechwriter and longtime friend. He’s not exactly a political brawler like Ed Rollins or Deputy Campaign Director Lee Atwater, but he’s drafted and formally joins the campaign as your newly minted campaign manager. Bringing in a conciliatory figure might seem like a smart move on paper, but many are left wondering whether Ken really has what it takes."
+            "answer_feedback": "Nancy and your closest allies settle on Ken Khachigian, a trusted speechwriter and longtime friend. He’s no political brawler like Ed Rollins or Lee Atwater, but he’s formally brought on as campaign manager. On paper, it’s a smart move; still, some, especially hardliners, wonder if Ken’s really up to the task."
         }
     },
     {
