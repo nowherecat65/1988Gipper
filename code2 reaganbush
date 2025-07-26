@@ -94,7 +94,7 @@ campaignTrail_temp.questions_json = [
         "pk": 703,
         "fields": {
             "priority": 4,
-            "description": "To what extent will your campaign attack the Massachusetts prison furlough program, and/or the murder committed by Willie Horton?",
+            "description": "Thanks to some digging by Republican operatives, much has been made of the Massachusetts prison furlough program, a policy that allowed felons temporary release from prison. One such case, Willie Horton, committed violent crimes, including rape and armed robbery, while on furlough from a life sentence without the possibility of parole for murder. How aggressively should your campaign seize on this issue?",
             "likelihood": 1
         }
     },
@@ -385,7 +385,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4382,
         "fields": {
             "question": 703,
-            "description": "We will attack the prison furlough system in general, perhaps with a “revolving door” ad or something of that nature. And the Willie Horton episode is certainly an egregious example of the practice."
+            "description": "This perfectly encapsulates everything that’s wrong with liberalism. Now, do I think Michael Horton Dukakis wants to see innocent people hurt? Of course not. But do the policies he champions make it easier for the bad apples to rise to the top and poison the rest? You bet they do."
         }
     },
     {
@@ -401,7 +401,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4384,
         "fields": {
             "question": 703,
-            "description": "I believe this is the kind of thing which might backfire on us. Voters want solutions, not petty attacks."
+            "description": "Well, I don’t mind some chatter from our campaign about the furlough program. It was a big mistake, no question, but let’s not make it too personal. I’m afraid that might backfire with middle-class folks… and the ones in the middle ground, too. "
         }
     },
     {
@@ -6407,7 +6407,37 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4382,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": -0.06
+            "global_multiplier": -0.02
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2223,
+        "fields": {
+            "answer": 4382,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2223,
+        "fields": {
+            "answer": 4384,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": -0.01125
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2223,
+        "fields": {
+            "answer": 4384,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.005
         }
     },
     {
@@ -6418,16 +6448,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 152,
             "affected_candidate": 153,
             "global_multiplier": -0.01
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 2225,
-        "fields": {
-            "answer": 4384,
-            "candidate": 152,
-            "affected_candidate": 153,
-            "global_multiplier": 0.004
         }
     },
     {
@@ -7367,6 +7387,46 @@ campaignTrail_temp.answer_score_issue_json = [
         "model": "campaign_trail.answer_score_issue",
         "pk": 1820,
         "fields": {
+            "answer": 4382,
+            "issue": 59,
+            "issue_score": -0.3,
+            "issue_importance": 2.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
+            "answer": 4382,
+            "issue": 60,
+            "issue_score": -0.3,
+            "issue_importance": 2.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
+            "answer": 4384,
+            "issue": 59,
+            "issue_score": -0.1,
+            "issue_importance": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
+            "answer": 4384,
+            "issue": 60,
+            "issue_score": -0.05,
+            "issue_importance": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
             "answer": 436712,
             "issue": 57,
             "issue_score": -0.2,
@@ -7651,16 +7711,6 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 59,
             "issue_score": -0.15,
             "issue_importance": 4
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 1828,
-        "fields": {
-            "answer": 4384,
-            "issue": 60,
-            "issue_score": -0.1,
-            "issue_importance": 7
         }
     },
     {
@@ -9295,7 +9345,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4382,
             "candidate": 152,
-            "answer_feedback": "Roger Ailes produces a couple of vivid ads on this issue. The story is embarrassing enough, but Dukakis seems completely unable to respond to your attacks."
+            "answer_feedback": "And so, with some help from Lee Atwater and his boys, your campaign kicks into high gear on the issue, millions spent on national advertisements, and more time during your speeches devoted to targeting ''Michael Horton Dukakis,'' a nickname that enrages Democrats and even some moderates within your own party. Your base, meanwhile, eats it up like starved wolves."
         }
     },
     {
@@ -9304,7 +9354,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4384,
             "candidate": 152,
-            "answer_feedback": "On the one hand, you have taken the high road. On the other hand, crime is huge issue and you are definitely leaving it on the table."
+            "answer_feedback": "You greenlight a series of advertisements targeting the furlough program, but to the dismay of hardliners in your campaign, you pull the plug on running them continuously and nationwide. Instead, the ads air selectively, late at night, in local markets like Philadelphia, New York City, and even Boston. Depending on who you’re trying to reach, it might be a smart move, or a mistake. "
         }
     },
     {
