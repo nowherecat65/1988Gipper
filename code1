@@ -4,7 +4,7 @@ campaignTrail_temp.election_json = [
         "pk": 15,
         "fields": {
             "year": 1988,
-            "summary": "<p>For the first time in nearly half a century, a sitting president is seeking a third consecutive term.</p><ul><li>President Ronald Reagan, ever the optimist, is hoping the country’s good mood and booming economy will overcome any doubts about age or tenure.</li><li>Michael Dukakis, Governor of Massachusetts, is a fresh face on the national stage. Can he convince voters that it’s time for a new direction, or will he, like Reagan’s previous challengers, fall short?</li></ul><p>As the campaign heats up, Reagan must decide whether to rest on his record of prosperity and stability, or take the offensive against Dukakis and his vision for change.</p>",
+            "summary": "<p>For the first time in nearly half a century, a sitting president is seeking a third consecutive term.</p><ul><li>President <b>Ronald Reagan</b>, ever the optimist, is hoping the country’s good mood and booming economy will overcome any doubts about age or tenure.</li><li><b>Michael Dukakis</b>, Governor of Massachusetts, is a fresh face on the national stage. Can he convince voters that it’s time for a new direction, or will he, like Reagan’s previous challengers, fall short?</li></ul><p>As the campaign heats up, Reagan must decide whether to rest on his record of prosperity and stability, or take the offensive against Dukakis and his vision for change.</p>",
             "image_url": "https://i.postimg.cc/CLQhJTLc/Reagan-vs-Dukakis.png",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://www.jetsimon.com/public/static/images/atwater-estrich-1988.jpg",
