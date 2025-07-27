@@ -5,7 +5,7 @@ cyoAdventure = function(a) {
         campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/50J8TTRX/Reagan-vs-Dukakis.jpg';
     }
     if(ans == 4372){
-        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/FRFV1wg2/Reagan-vs-Dukakis-1.jpg';
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/P5rYk0hc/Reagan-vs-Dukakis-4.jpg';
     }
     if(ans == 4370){
         campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/NfXPH9HY/Reagan-vs-Dukakis-2.jpg';
