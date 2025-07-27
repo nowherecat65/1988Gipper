@@ -447,9 +447,33 @@ hdr.style.backgroundRepeat  = "no-repeat";
 hdr.style.backgroundSize    = "cover";
 hdr.style.backgroundPosition = "center";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#BFE6FF";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window =
+  "linear-gradient(to bottom, #ffeb3b 0%, #fdd835 50%, #ffeb3b 100%)";
+
+document.head.insertAdjacentHTML("beforeend", `
+  <style>
+    /* Jelly‑bean window background */
+    #game_window {
+      background-image: ${nct_stuff.themes[nct_stuff.selectedTheme].coloring_window} !important;
+      background-repeat: no-repeat    !important;
+      background-size:   cover        !important;
+      background-position: center top !important;
+    }
+#state_info h3 {
+  background-color: #4caf50;
+}
+#state_result h3 {
+  background-color: #4caf50;
+}
+#overall_result h3 {
+  background-color: #4caf50;
+  </style>
+`);
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_container =
+  "linear-gradient(to right,#f44336,#f44336)";
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
@@ -458,6 +482,9 @@ $(".container")[0].style.backgroundColor = "#FFFFFF";
 document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
 
 document.body.background = "https://i.postimg.cc/X75jtmKc/Jelly-Beans.png";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_w_desc =
+  "linear-gradient(to bottom right, #ff8a65, #ffd54f, #aed581)";
 
   document.body.style.backgroundRepeat  = "no-repeat";
   document.body.style.backgroundPosition = "center top";
@@ -485,6 +512,22 @@ function addDynamicCSS() {
       background-repeat: no-repeat      !important;
       background-size:   cover          !important;
       background-position: center top   !important;
+    }
+    .inner_window_w_desc {
+      background-image: ${nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_w_desc} !important;
+      background-repeat: no-repeat      !important;
+      background-size:   cover          !important;
+      background-position: center       !important;
+    }
+    .container {
+      background-image: ${nct_stuff.themes[nct_stuff.selectedTheme].coloring_container} !important;
+      background-repeat: no-repeat      !important;
+      background-size:   cover          !important;
+      background-position: center       !important;
+    }
+    #game_window {
+      border: none !important;
+      box-shadow: none !important;
     }
 
 	
