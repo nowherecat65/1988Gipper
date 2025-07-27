@@ -7,6 +7,21 @@ cyoAdventure = function(a) {
     if(ans == 4372){
         campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/FRFV1wg2/Reagan-vs-Dukakis-1.jpg';
     }
+    if(ans == 4370){
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/NfXPH9HY/Reagan-vs-Dukakis-2.jpg';
+    }
+    if(ans == 4366){
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/hjH1DsMm/Reagan-vs-Dukakis-3.jpg';
+    }
+    if(ans == 4367){
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/hjH1DsMm/Reagan-vs-Dukakis-3.jpg';
+    }
+    if(ans == 4368){
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/hjH1DsMm/Reagan-vs-Dukakis-3.jpg';
+    }
+    if(ans == 43672){
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/hjH1DsMm/Reagan-vs-Dukakis-3.jpg';
+    }
 
 }
 
