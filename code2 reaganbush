@@ -4533,7 +4533,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 459,
-            "state_multiplier": 1.2744596451973462
+            "state_multiplier": 1.2844596451973462
         }
     },
     {
@@ -4551,7 +4551,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 461,
-            "state_multiplier": 1.32132366991
+            "state_multiplier": 1.34132366991
         }
     },
     {
@@ -4659,7 +4659,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 473,
-            "state_multiplier": 1.2917642387667797779
+            "state_multiplier": 1.2998998998998677642387667797779
         }
     },
     {
@@ -4776,7 +4776,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 486,
-            "state_multiplier": 1.252
+            "state_multiplier": 1.272
         }
     },
     {
@@ -4884,7 +4884,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 498,
-            "state_multiplier": 1.138653211178812
+            "state_multiplier": 1.151121122112218653211178812
         }
     },
     {
@@ -4893,7 +4893,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 499,
-            "state_multiplier": 1.2364
+            "state_multiplier": 1.2464
         }
     },
     {
@@ -4956,7 +4956,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 506,
-            "state_multiplier": 1.09989989895677356725523511131245
+            "state_multiplier": 1.10989989895677356725523511131245
         }
     },
     {
@@ -6686,7 +6686,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 43921,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.024
+            "global_multiplier": 0.0275
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2230,
+        "fields": {
+            "answer": 43921,
+            "candidate": 152,
+            "affected_candidate": 154,
+            "global_multiplier": -0.051
         }
     },
     {
@@ -7147,6 +7157,26 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 152,
             "affected_candidate": 153,
             "global_multiplier": 0.0222
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2330,
+        "fields": {
+            "answer": 4515,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.012
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2330,
+        "fields": {
+            "answer": 4515,
+            "candidate": 152,
+            "affected_candidate": 154,
+            "global_multiplier": -0.052
         }
     },
     {
@@ -7950,6 +7980,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": 57,
             "issue_score": -0.3,
             "issue_importance": 1.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1832,
+        "fields": {
+            "answer": 4512,
+            "issue": 57,
+            "issue_score": -0.3,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1832,
+        "fields": {
+            "answer": 4511,
+            "issue": 57,
+            "issue_score": 0.03,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1832,
+        "fields": {
+            "answer": 4514,
+            "issue": 57,
+            "issue_score": 0.3,
+            "issue_importance": 0.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1832,
+        "fields": {
+            "answer": 4513,
+            "issue": 57,
+            "issue_score": -0.35,
+            "issue_importance": 0.5
         }
     },
     {
@@ -9981,7 +10051,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4511,
             "candidate": 152,
-            "answer_feedback": "Some critics say this undercuts your messaging on the economy and angers some of the most ardent supply-siders, all for what looks like a political concession to struggling states. While the intent seems sound, it risks making you appear like a flip-flopper."
+            "answer_feedback": "Some critics say this undercuts your economic messaging and record, angering some of the most ardent supply-siders, all for what appears to be a political concession to struggling states. While the intent may be sound, it risks making you look like a flip-flopper."
         }
     },
     {
