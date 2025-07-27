@@ -838,6 +838,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 45241,
+        "fields": {
+            "question": 756,
+            "description": "Let’s make sure the format works for us. I’d like shorter answers, fewer interruptions, none of that shouting over each other. Let’s talk to the network, make sure the tone stays presidential. If they’re looking for a show... well, that’s not what this is. "
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 4525,
         "fields": {
             "question": 756,
@@ -849,7 +857,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4526,
         "fields": {
             "question": 756,
-            "description": "Well, let’s take it easy. I’ll go out there, make the case, and speak from the heart. That’s always worked better for me than trying to memorize a binder full of numbers. Let’s keep it steady, and, … talk about how our nation is stable, and how the economy is booming."
+            "description": "Let’s take it easy. I’ll go out there, make the case, and speak from the heart. That’s always worked better for me than trying to memorize a binder full of numbers. Let’s keep it steady, and, … talk about how our nation is stable, and how the economy is booming."
         }
     }
 ]
@@ -7039,7 +7047,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4525,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.05821
+            "global_multiplier": 0.05998
         }
     },
     {
@@ -7049,7 +7057,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4524,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.07751
+            "global_multiplier": 0.08251
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2335,
+        "fields": {
+            "answer": 45241,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.06751
         }
     },
     {
@@ -9940,7 +9958,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4524,
             "candidate": 152,
-            "answer_feedback": "Much like the first debate in 1984, you appeared lost in a sea of figures and exact details, seemingly overprepared. Meanwhile, Michael Dukakis, never much of a firebrand, seemed to flip a switch, furiously hammering your administration on inequality, the deficit, and your long tenure. To most, it was a big victory for the Democrats."
+            "answer_feedback": "Much like the first debate in 1984, you appeared lost in a sea of figures and exact details, seemingly overprepared. Meanwhile, Michael Dukakis, never much of a firebrand, seemed to flip a switch, furiously hammering your administration on inequality, the deficit, and your long tenure. To most, it was a clear victory for the Democrats, and now, many are looking forward to seeing more of Jon Lovitz’s portrayal of Mr. Dukakis on <em>Saturday Night Live</em>."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2000,
+        "fields": {
+            "answer": 45241,
+            "candidate": 152,
+            "answer_feedback": "Thankfully, the networks have largely acquiesced to your numerous demands. The format is notably quicker and less confrontational than the 1984 debates. However, Dukakis was able to negotiate a period toward the end of the debate allowing for open rebuttals. You ended up performing fairly well, though you were somewhat beset by Dukakis’s willingness to directly attack your record, particularly on poverty."
         }
     },
     {
@@ -9949,7 +9976,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4525,
             "candidate": 152,
-            "answer_feedback": "Thanks to the help of Pat Buchanan and your assembled team of speechwriters, you came to the debate armed to the teeth with one-liners and attacks on Michael Dukakis. In the end, while you stumbled toward the close, you kept the Governor on his toes. And his aloof demeanor in the face of withering attack did little to help his cause."
+            "answer_feedback": "Thanks to the help of Pat Buchanan and your assembled team of speechwriters, you came to the debate armed to the teeth with one-liners and sharp attacks on Michael Dukakis. While you stumbled slightly toward the close, momentarily losing your train of thought, your overall command of the stage left Dukakis on the defensive, and his aloof demeanor in the face of withering attacks did little to help his cause."
         }
     },
     {
