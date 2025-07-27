@@ -773,7 +773,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4511,
         "fields": {
             "question": 753,
-            "description": "We need to form a comprehensive energy strategy and re-implement price supports for domestic oil production."
+            "description": "Well, I think it's time we look again at a strong, long-term energy strategy, something that supports our own producers here at home. We’ve done a lot already, but... I think there’s more to do to make sure they’re not left behind."
         }
     },
     {
@@ -781,7 +781,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4512,
         "fields": {
             "question": 753,
-            "description": "I believe that American companies should every right to bid on foreign oil contracts with our allies."
+            "description": "I believe American companies ought to have every chance to compete, fairly and openly, on energy contracts with our friends overseas. That’s part of keeping our economy strong and open for business."
         }
     },
     {
@@ -789,7 +789,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4513,
         "fields": {
             "question": 753,
-            "description": "Cheap oil is an overall benefit to our economy. I think the majority of voters will understand that this fall."
+            "description": "Lower energy prices have helped keep inflation down and our recovery steady. Now, I know it’s been hard in some states, but overall, I believe folks understand that a healthy economy lifts all boats."
         }
     },
     {
@@ -797,7 +797,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4514,
         "fields": {
             "question": 753,
-            "description": "We need more funding for federal programs to mitigate the worst effects of this downturn."
+            "description": "We’ve worked hard to limit government overreach, but there’s... there’s times when we’ve gotta step in and give folks a hand. We’ll look at where the help’s needed most, and make sure it gets there."
         }
     },
     {
@@ -7035,7 +7035,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4514,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.03
+            "global_multiplier": 0.02
         }
     },
     {
@@ -9854,16 +9854,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4511,
             "candidate": 152,
-            "answer_feedback": "This appears too much of a pander to Texans to go over well, when it runs against the normal principles of your party."
+            "answer_feedback": "Some critics say this undercuts your messaging on the economy and angers some of the most ardent supply-siders, all for what looks like a political concession to struggling states. While the intent seems sound, it risks making you appear like a flip-flopper."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 1983,
+        "pk": 1982,
         "fields": {
-            "answer": 4511,
-            "candidate": 153,
-            "answer_feedback": "This is a bold position, but it could definitely help some Texas Democrats make up their minds."
+            "answer": 4512,
+            "candidate": 152,
+            "answer_feedback": "This plays well with free-market conservatives and shows confidence in American business abroad. However, some on your campaign worry it may come across as tone-deaf to struggling domestic producers still reeling from the price crash."
         }
     },
     {
@@ -9871,8 +9871,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 1984,
         "fields": {
             "answer": 4513,
-            "candidate": 153,
-            "answer_feedback": "Some environmentalist-influenced supporters disagree."
+            "candidate": 152,
+            "answer_feedback": "This message stays true to your broader economic narrative, especially with middle-class voters who value low consumer costs. Still, it risks appearing dismissive toward oil-producing regions. If you're seen as shrugging off the hardship in states like Texas, it could hand Governor Dukakis an opening."
         }
     },
     {
@@ -9881,7 +9881,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4514,
             "candidate": 152,
-            "answer_feedback": "This is not the preferred answer for this situation."
+            "answer_feedback": "While most people can understand some concessions, especially in response to a crisis, this stance alienates many free-marketeers, including some within your own Cabinet. Michael Dukakis soon after slams you as lost and confused on the issue, a swipe that seems aimed, at least in part, at your age."
         }
     },
     {
