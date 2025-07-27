@@ -438,7 +438,14 @@ jet_data = {
 
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title =
+  "linear-gradient(to right,#f44336,#ffeb3b,#4caf50)";
+
+const hdr = document.getElementsByClassName("game_header")[0];
+hdr.style.backgroundImage   = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+hdr.style.backgroundRepeat  = "no-repeat";
+hdr.style.backgroundSize    = "cover";
+hdr.style.backgroundPosition = "center";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#BFE6FF";
 
@@ -467,6 +474,18 @@ function addDynamicCSS() {
 .recommended_reading_box {
             height: auto;
             }
+    /* Persistently style every header with our jelly‑bean gradient */
+    .game_header {
+      background-image: linear-gradient(
+        to right,
+        #f44336,  /* red bean */
+        #ffeb3b,  /* yellow bean */
+        #4caf50   /* green bean */
+      ) !important;
+      background-repeat: no-repeat      !important;
+      background-size:   cover          !important;
+      background-position: center top   !important;
+    }
 
 	
     `;
