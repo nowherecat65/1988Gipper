@@ -567,6 +567,9 @@ function addDynamicCSS() {
     #overall_result_container {
       background-color: #FFE93B !important;
     }
+    #campaign_sign {
+      background-color: #ffeb3b !important;  /* jelly‑bean yellow */
+      border-color:     #f44336 !important;  /* jelly‑bean red */
 
 	
     `;
