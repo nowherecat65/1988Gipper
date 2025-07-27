@@ -2,7 +2,7 @@ campaignTrail_temp.cyoa = true
 cyoAdventure = function(a) {
  ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
     if(ans == 4371){
-        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/VkGMs4kN/Reagan-vs-Dukakis-5.jpg';
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/W4xkg3rL/Reagan-vs-Dukakis-6.jpg';
     }
     if(ans == 4372){
         campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/P5rYk0hc/Reagan-vs-Dukakis-4.jpg';
