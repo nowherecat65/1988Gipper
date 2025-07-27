@@ -393,7 +393,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4384,
         "fields": {
             "question": 703,
-            "description": "Well, I don’t mind some chatter from our campaign about the furlough program. It was a big mistake, no question, but let’s not make it too personal. I’m afraid that might backfire with middle-class folks… and the ones in the middle ground, too. "
+            "description": "Well, I don’t mind some chatter from our campaign about the furlough program. It was a big mistake, no question there, but let’s not make it too personal. I’m afraid that might backfire with middle-class folks… and the ones in the middle ground, too. "
         }
     },
     {
