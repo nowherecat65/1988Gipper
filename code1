@@ -568,8 +568,8 @@ function addDynamicCSS() {
       background-color: #FFE93B !important;
     }
     #campaign_sign {
-      background-color: #ffeb3b !important;  /* jelly‑bean yellow */
-      border-color:     #f44336 !important;  /* jelly‑bean red */
+      background-color: #f44336 !important;  /* jelly‑bean yellow */
+      border-color:     #ffeb3b !important;  /* jelly‑bean red */
 
 	
     `;
