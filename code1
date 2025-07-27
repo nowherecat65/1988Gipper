@@ -481,7 +481,7 @@ $(".container")[0].style.backgroundColor = "#FFFFFF";
 
 document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
 
-document.body.background = "https://i.postimg.cc/X75jtmKc/Jelly-Beans.png";
+document.body.background = "https://i.postimg.cc/d0qP5tjp/Jelly-Beans-2.png";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_question_h3 = "#FFF5B8";
 
