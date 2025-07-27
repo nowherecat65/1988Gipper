@@ -146,6 +146,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 7491,
+        "fields": {
+            "priority": 4,
+            "description": "Congressional Democrats are launching hearings into alleged mismanagement within the Department of Housing and Urban Development, accusing members of your administration of fostering a ‘pay-to-play’ culture. While no direct link to you has been made, the press is picking up on the story. How do you respond?",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 708,
         "fields": {
             "priority": 4,
@@ -702,6 +711,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 745,
             "description": "We have taken too many steps to expand world trade without adequately protecting American workers from the consequences. I would definitely run a more protectionist Administration."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 450123,
+        "fields": {
+            "question": 7491,
+            "description": "We’ve got a good team looking into it, and I’ve asked for a full report. Let’s not jump to conclusions before the facts are in, this is a big government, after all."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 450124,
+        "fields": {
+            "question": 7491,
+            "description": "I’m not aware of any wrongdoing, but if someone stepped out of line, they’ll be dealt with. I’ve always said, we must serve the people, not ourselves."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 450125,
+        "fields": {
+            "question": 7491,
+            "description": "Well, I… I’ve been proud of the work we’ve done, and I still am. This sounds more like politics than policy to me, but we’ll take it seriously."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 450126,
+        "fields": {
+            "question": 7491,
+            "description": "They’ve been saying things like this for years, it’s all part of their… well, I think they just don’t like how well we’ve done, and they want to take us down. It’s really as simple as that."
         }
     },
     {
@@ -6950,6 +6991,56 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 2319,
+        "fields": {
+            "answer": 450123,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.026
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2319,
+        "fields": {
+            "answer": 450124,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.022
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2319,
+        "fields": {
+            "answer": 450125,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.024
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2319,
+        "fields": {
+            "answer": 450126,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.036
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2319,
+        "fields": {
+            "answer": 450126,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.013
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 2320,
         "fields": {
             "answer": 4502,
@@ -9765,6 +9856,42 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 4491,
             "candidate": 152,
             "answer_feedback": "In general, your party supports liberalized trade -- unless you are really trying to push yourself over the top in a couple of states."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1973,
+        "fields": {
+            "answer": 450123,
+            "candidate": 152,
+            "answer_feedback": "Your calm demeanor plays well with some moderates and older voters who see you as the adult in the room. But critics say you're either too detached, or too far removed, to grasp what's unfolding within your own Cabinet."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1973,
+        "fields": {
+            "answer": 450124,
+            "candidate": 152,
+            "answer_feedback": "This answer hits the right tone for many Republicans, measured, principled, and firm. Still, a few headlines raise questions about whether you're 'not aware' or simply not paying attention, and needless to say, the Dukakis campaign is having a field day with this issue."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1973,
+        "fields": {
+            "answer": 450125,
+            "candidate": 152,
+            "answer_feedback": "Some viewers found your grandfatherly tone reassuring on this issue, and it’s true, you still have a connection with many Americans. But to many liberals, and much of the press, it’s seen as proof that you don’t fully grasp what’s happening in your own administration, and perhaps, that you’re simply growing tired."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1973,
+        "fields": {
+            "answer": 450126,
+            "candidate": 152,
+            "answer_feedback": "Reporters seemed to sense more than a note of anger in your voice. Your comments make national news, and many average voters appear concerned. Your base, as always, defends it as your trademark wit, and eat it up like cake."
         }
     },
     {
