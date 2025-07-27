@@ -1,3 +1,16 @@
+campaignTrail_temp.cyoa = true
+cyoAdventure = function(a) {
+ ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1]
+    if(ans == 4371){
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/50J8TTRX/Reagan-vs-Dukakis.jpg';
+    }
+    if(ans == 4372){
+        campaignTrail_temp.election_json[0]["fields"].advisor_url = 'https://i.postimg.cc/FRFV1wg2/Reagan-vs-Dukakis-1.jpg';
+    }
+
+}
+
+
 campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
