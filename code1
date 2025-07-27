@@ -567,6 +567,25 @@ function addDynamicCSS() {
     #overall_result_container {
       background-color: #FFE93B !important;
     }
+#opponent_selection_description_window,
+#inner_window_1,
+#inner_window_2,
+.inner_window_sign_display,
+#candidate_description_window,
+#running_mate_description_window,
+#election_description_window {
+  background-image:
+    /* light jelly‑bean cream gradient */
+    linear-gradient(to bottom, #ffffff 0%, #fffceb 50%, #ffffff 100%),
+    /* gentle bean speckle */
+    repeating-radial-gradient(rgba(0, 0, 0, 0.01) 0.5px, transparent 3px);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  border-radius: 3.2px;
+  overflow: hidden;
+}
     #campaign_sign {
       background-color: #f44336 !important;  /* jelly‑bean yellow */
       border-color:     #ffeb3b !important;  /* jelly‑bean red */
