@@ -493,7 +493,7 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_question =
   "linear-gradient(to right,#ffffff,#fffceb)";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_w_desc =
-  "linear-gradient(to bottom right, #ff8a65, #ffd54f, #aed581)";
+  "linear-gradient(to bottom, #ffe23a 0%, #fdd32e 50%, #ffe23a 100%)";
 
   document.body.style.backgroundRepeat  = "no-repeat";
   document.body.style.backgroundPosition = "center top";
