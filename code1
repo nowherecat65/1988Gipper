@@ -51,7 +51,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democrat",
             "state": "Massachusetts",
             "priority": 2,
-            "description": "<p>Michael Dukakis has been elected three times as Governor of Massachusetts. His chances this year seem to be good, if he can press the case for his own ability and challenge the readiness of Bush. Dukakis has won the nomination without aligning himself firmly with a specific wing of the party. His national reputation is positive, but inchoate. He will be expected to define himself more clearly, and may need to explain some older votes and decisions as they become known.</p>",
+            "description": "</h3><p><strong>NOT PLAYABLE. FOR CONTEXT ONLY.</strong><p>Michael Dukakis has been elected three times as Governor of Massachusetts. His chances this year may hinge on his ability to contrast his vision with President Reagan’s long tenure. Dukakis has secured the nomination without tying himself too closely to any one wing of the Democratic Party. His national profile is generally favorable, though still somewhat undefined. He will be expected to sharpen that profile and address aspects of his record that could come under renewed scrutiny.</p>",
             "color_hex": "#313BA7",
             "secondary_color_hex": "#7F9AC4",
             "is_active": 1,
@@ -174,7 +174,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>Lloyd Bentsen has served as a Senator from Texas since 1971. In his first Senatorial election, he defeated George Bush. He is viewed as a moderate Democrat, particularly on economic issues. Texas could be a competitive state in the fall, and Bentsen's presence would help there. He is also very experienced on the national political stage. No Democrat has ever lost Texas and gone on to win a Presidential election.</p>",
+            "description_as_running_mate": "<p>Lloyd Bentsen has served as a Senator from Texas since 1971. In his first Senatorial election, he defeated George Bush. He is viewed as a moderate Democrat, particularly on economic issues. With Texas potentially in play against President Reagan, Bentsen’s presence on the ticket could prove valuable. He brings deep national experience and credibility. No Democrat has ever lost Texas and still gone on to win the presidency.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
