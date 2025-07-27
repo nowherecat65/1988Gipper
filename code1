@@ -483,6 +483,15 @@ document.getElementById("header").src = "https://jetsimon.com/public/placeholder
 
 document.body.background = "https://i.postimg.cc/X75jtmKc/Jelly-Beans.png";
 
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_question_h3 = "#FFF5B8";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_overlay_window_h3 = "#FFF5B8";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_menu_container = "#FFE93B";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_question =
+  "linear-gradient(to right,#ffffff,#fffceb)";
+
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_w_desc =
   "linear-gradient(to bottom right, #ff8a65, #ffd54f, #aed581)";
 
@@ -528,6 +537,35 @@ function addDynamicCSS() {
     #game_window {
       border: none !important;
       box-shadow: none !important;
+    }
+#map_container {
+  background: linear-gradient(to right,#ffffff,#fffceb);
+  background-size: 200% 200%;
+  border-radius: 1.0px;
+  box-shadow:
+  inset 0 0 4px rgba(0, 0, 0, 0.1),      /* softer inner depth */
+  0 0 0 2px rgba(255, 235, 59, 0.4);      /* light yellow ring at 40% opacity */
+  overflow: hidden;
+}
+    .inner_window_question {
+      background-image: ${nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_question} !important;
+      background-size: 200% 200% !important;
+      border-radius: 1px !important;
+      box-shadow:
+        inset 0 0 4px rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgba(255, 235, 59, 0.4) !important;
+    }
+    .inner_window_question h3 {
+      background-color: ${nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_question_h3} !important;
+    }
+    .overlay_window h3 {
+      background-color: ${nct_stuff.themes[nct_stuff.selectedTheme].coloring_overlay_window_h3} !important;
+    }
+    #menu_container {
+      background-color: ${nct_stuff.themes[nct_stuff.selectedTheme].coloring_menu_container} !important;
+    }
+    #overall_result_container {
+      background-color: #FFE93B !important;
     }
 
 	
