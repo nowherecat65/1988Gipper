@@ -450,7 +450,11 @@ $(".container")[0].style.backgroundColor = "#FFFFFF";
 
 document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
 
-document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+document.body.background = "https://i.postimg.cc/X75jtmKc/Jelly-Beans.png";
+
+  document.body.style.backgroundRepeat  = "no-repeat";
+  document.body.style.backgroundPosition = "center top";
+  document.body.style.backgroundSize    = "cover";       // ← fills the viewport, cropping as needed
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#E8FBFF!important;}</style>";
 
