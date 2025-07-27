@@ -424,14 +424,15 @@ campaignTrail_temp.temp_election_list = [
 ]
 
 jet_data = {
-    "headerColor": "#700016",
-    "windowColor": "#BFE6FF",
-    "containerColor": "#FFFFFF",
-    "innerWindowColor": "#E8FBFF",
-    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
-    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
-    "endingTextColor": "#000000",
-    "customQuote": ""
+  "headerColor":      "#f44336",  // red
+  "windowColor":      "#fffceb",  // cream
+  "containerColor":   "#fffceb",  // matching container tone
+  "innerWindowColor": "#fffceb",  // consistent inner window
+  "bannerImageUrl":   "https://jetsimon.com/public/placeholderbanner.png",
+  "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+  "endingTextColor":  "#212121",  // black
+  "customQuote":      ""
+};
 }
 
 //#startcode
