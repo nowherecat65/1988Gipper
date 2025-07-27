@@ -131,7 +131,7 @@ campaignTrail_temp.questions_json = [
         "pk": 753,
         "fields": {
             "priority": 4,
-            "description": "What measures should be taken to assist states, such as Texas, which have been hurt by the recent crash in oil prices?",
+            "description": "States like Texas are still reeling from the long-term effects of the oil bust earlier this decade. What more can your administration do to support their recovery and prevent further regional economic hardship?",
             "likelihood": 1
         }
     },
