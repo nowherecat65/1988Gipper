@@ -176,7 +176,7 @@ campaignTrail_temp.questions_json = [
         "pk": 743,
         "fields": {
             "priority": 4,
-            "description": "Are you willing to rule out any further increases to the federal income tax, if elected President?",
+            "description": "In these eight years, you’ve cut taxes dramatically, raised them to rein in the deficit, and later lowered them again. Somewhat surprisingly, Governor Dukakis has publicly speculated that you intend to raise them in a third term, arguing that out-of-control deficits will leave you no choice. Do you have a plan to respond to this, and how do you want to talk about taxes on the trail?",
             "likelihood": 1
         }
     },
