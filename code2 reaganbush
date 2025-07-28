@@ -1645,7 +1645,7 @@ campaignTrail_temp.issues_json = [
         "fields": {
             "name": "Economics",
             "description": "'",
-            "stance_1": "Conservative",
+            "stance_1": "Very Conservative",
             "stance_desc_1": "'",
             "stance_2": "Conservative",
             "stance_desc_2": "'",
@@ -1657,7 +1657,7 @@ campaignTrail_temp.issues_json = [
             "stance_desc_5": "'",
             "stance_6": "Liberal",
             "stance_desc_6": "'",
-            "stance_7": "Liberal",
+            "stance_7": "Very Liberal",
             "stance_desc_7": "'",
             "election": 15
         }
@@ -1668,7 +1668,7 @@ campaignTrail_temp.issues_json = [
         "fields": {
             "name": "Defense",
             "description": "'",
-            "stance_1": "Conservative",
+            "stance_1": "Very Conservative",
             "stance_desc_1": "'",
             "stance_2": "Conservative",
             "stance_desc_2": "'",
@@ -1680,7 +1680,7 @@ campaignTrail_temp.issues_json = [
             "stance_desc_5": "'",
             "stance_6": "Liberal",
             "stance_desc_6": "'",
-            "stance_7": "Liberal",
+            "stance_7": "Very Liberal",
             "stance_desc_7": "'",
             "election": 15
         }
@@ -1691,7 +1691,7 @@ campaignTrail_temp.issues_json = [
         "fields": {
             "name": "Social Issues",
             "description": "'",
-            "stance_1": "Conservative",
+            "stance_1": "Very Conservative",
             "stance_desc_1": "'",
             "stance_2": "Conservative",
             "stance_desc_2": "'",
@@ -1703,7 +1703,7 @@ campaignTrail_temp.issues_json = [
             "stance_desc_5": "'",
             "stance_6": "Liberal",
             "stance_desc_6": "'",
-            "stance_7": "Liberal",
+            "stance_7": "Very Liberal",
             "stance_desc_7": "'",
             "election": 15
         }
@@ -1726,7 +1726,7 @@ campaignTrail_temp.issues_json = [
             "stance_desc_5": "'",
             "stance_6": "Liberal",
             "stance_desc_6": "'",
-            "stance_7": "Liberal",
+            "stance_7": "Very Liberal",
             "stance_desc_7": "'",
             "election": 15
         }
