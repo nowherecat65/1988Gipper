@@ -615,7 +615,7 @@ const themes = {
     mainColor:          "#f44336",
     secondaryColor:     "#FED933",
     uiTextColor:        "#212121",
-    windowGradient:     "linear-gradient(to bottom, #ffe23a 0%, #fdd32e 50%, #ffe23a 100%)",
+    windowGradient:     "linear-gradient(to bottom, #FDE342 0%, #EFCF21 50%, #FDE342 100%)",
     titleGradient:      "linear-gradient(to right,#f44336,#ffeb3b,#4caf50)",
     containerBg:        "#fffceb"
   },
@@ -628,7 +628,7 @@ const themes = {
   secondaryColor:      "#4A4D50", // slightly lighter accent
   uiTextColor:         "#ECECEC", // bright but gentle
     windowGradient:     "linear-gradient(to bottom, #38393A 0%, #4E4F50 100%)",
-    titleGradient:      "linear-gradient(to right, #38393A 0%, #4A4B4C 100%)",
+    titleGradient:      "linear-gradient(to bottom, #3A3A3B 0%, #4D4D4E 100%)",
   containerBg:         "#424343"  // inner_window_w_desc override
   }
 };
