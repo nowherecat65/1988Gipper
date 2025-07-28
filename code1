@@ -428,7 +428,7 @@ jet_data = {
     "windowColor": "#fffceb",
     "containerColor": "#fffceb",
     "innerWindowColor": "#fffceb",
-    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "bannerImageUrl": "https://i.postimg.cc/Kvj3LDgg/New-Project-2025-07-28-T154006-146.png",
     "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
     "endingTextColor": "#212121",
     "customQuote": ""
@@ -482,7 +482,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#FFFFFF";
 
-document.getElementById("header").src = "https://jetsimon.com/public/placeholderbanner.png";
+document.getElementById("header").src = "https://i.postimg.cc/Kvj3LDgg/New-Project-2025-07-28-T154006-146.png";
 
 document.body.background = "https://i.postimg.cc/BbyPCzW7/Jelly-Bean-background.png";
 
