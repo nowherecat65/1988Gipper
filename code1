@@ -460,16 +460,16 @@ document.head.insertAdjacentHTML("beforeend", `
       background-position: center top !important;
     }
 #state_info h3 {
-  background-color: #4caf50;
+  background-color: #F44336;
 }
 #state_result h3 {
-  background-color: #4caf50;
+  background-color: #F44336;
 }
 .campaign_trail_start_emphasis {
   background: linear-gradient(to right, #f44336, #f44336) !important;
 }
 #overall_result h3 {
-  background-color: #4caf50;
+  background-color: #F44336;
   </style>
 `);
 
@@ -486,9 +486,9 @@ document.getElementById("header").src = "https://jetsimon.com/public/placeholder
 
 document.body.background = "https://i.postimg.cc/BbyPCzW7/Jelly-Bean-background.png";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_question_h3 = "#FFF5B8";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_question_h3 = "#fbbdb9";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_overlay_window_h3 = "#FFF5B8";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_overlay_window_h3 = "#fbbdb9";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_menu_container = "#FFE93B";
 
@@ -575,11 +575,11 @@ function addDynamicCSS() {
       background-color: ${nct_stuff.themes[nct_stuff.selectedTheme].coloring_overlay_window_h3} !important;
     }
     #menu_container {
-      background-color: ${nct_stuff.themes[nct_stuff.selectedTheme].coloring_menu_container} !important;
+      background-color: #F44336 !important;
     }
 
     #overall_result_container {
-      background-color: #FFE93B !important;
+      background-color: #F44336 !important;
 }
 #election_description_window,
 .person_description_window,
@@ -613,7 +613,7 @@ const themes = {
     descriptionTextColor:"#212121",
     descriptionBgColor: "#fffceb",
     mainColor:          "#f44336",
-    secondaryColor:     "#4caf50",
+    secondaryColor:     "#FED933",
     uiTextColor:        "#212121",
     windowGradient:     "linear-gradient(to bottom, #ffe23a 0%, #fdd32e 50%, #ffe23a 100%)",
     titleGradient:      "linear-gradient(to right,#f44336,#ffeb3b,#4caf50)",
@@ -627,8 +627,8 @@ const themes = {
   mainColor:           "#3A3B3E", // textured dark gray
   secondaryColor:      "#4A4D50", // slightly lighter accent
   uiTextColor:         "#ECECEC", // bright but gentle
-  windowGradient:      "none",
-  titleGradient:       "none",
+    windowGradient:     "linear-gradient(to bottom, #2E2E2E 0%, #393939 100%)",
+    titleGradient:      "linear-gradient(to right, #2E2E2E 0%, #3A3A3A 100%)",
   containerBg:         "#424343"  // inner_window_w_desc override
   }
 };
@@ -671,6 +671,8 @@ function applyTheme(name) {
     document.body.style.background = "url('https://i.postimg.cc/BbyPCzW7/Jelly-Bean-background.png') no-repeat center center fixed";
   } else {
     document.body.style.background = "url('https://i.postimg.cc/RZ5ffYxp/background-sad.png') no-repeat center center fixed";
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_inner_window_question_h3 = "#D0D0D0";
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_overlay_window_h3 = "#D0D0D0";
   }
   document.body.style.backgroundSize = 'cover';
 
