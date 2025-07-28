@@ -427,6 +427,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 43821,
+        "fields": {
+            "question": 703,
+            "description": "Of course, we’re going to talk about it, because it’s a matter of judgment, and the American people deserve to know who they’re placing their trust in. When a man serving life for murder is let out and goes on to rape and rob… well, it's not right. Let's run those ads."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 4384,
         "fields": {
             "question": 703,
@@ -6506,7 +6514,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4382,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": -0.02
+            "global_multiplier": -0.021
         }
     },
     {
@@ -6517,6 +6525,26 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 152,
             "affected_candidate": 152,
             "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2223,
+        "fields": {
+            "answer": 43821,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2223,
+        "fields": {
+            "answer": 43821,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": 0.0085
         }
     },
     {
@@ -7629,6 +7657,26 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 4382,
             "issue": 60,
             "issue_score": -0.3,
+            "issue_importance": 2.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
+            "answer": 43821,
+            "issue": 59,
+            "issue_score": -0.25,
+            "issue_importance": 2.0
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1820,
+        "fields": {
+            "answer": 43821,
+            "issue": 60,
+            "issue_score": -0.25,
             "issue_importance": 2.0
         }
     },
@@ -9615,6 +9663,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 4382,
             "candidate": 152,
             "answer_feedback": "And so, with some help from Lee Atwater and his boys, your campaign kicks into high gear on the issue, millions spent on national advertisements, and more time during your speeches devoted to targeting ''Michael Horton Dukakis,'' a nickname that enrages Democrats and even some moderates within your own party. Your base, meanwhile, eats it up like starved wolves."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1868,
+        "fields": {
+            "answer": 43821,
+            "candidate": 152,
+            "answer_feedback": "Though you maintain your stump speech without leaning too heavily into the Willie Horton issue, you do end up airing the advertisements nationally. One in particular features a steely voiceover declaring, ''President Reagan: For security. For justice. For America.'' While some in the liberal press complain, much of the country seems to resonate with the ads."
         }
     },
     {
