@@ -158,7 +158,7 @@ campaignTrail_temp.questions_json = [
         "pk": 708,
         "fields": {
             "priority": 4,
-            "description": "Do you have anything to say about the Iran-Contra affair, and can you reassure voters that you were not involved?",
+            "description": "Mr. President, the Iran-Contra affair continues to concern many Americans, especially following the recent congressional hearings. Can you clarify your role in the affair, and reassure voters that you were not personally involved in authorizing any illegal activity?",
             "likelihood": 1
         }
     },
@@ -526,7 +526,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4395,
         "fields": {
             "question": 708,
-            "description": "I was absolutely not involved with these dealings at any point, and I was appalled to find out about them."
+            "description": "I was deeply disappointed when these events came to light. While I certainly didn’t authorize any of it, I accept responsibility as the President. I’ve always believed in integrity and personal accountability, and that starts at the top."
         }
     },
     {
@@ -534,7 +534,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4396,
         "fields": {
             "question": 708,
-            "description": "I should have been more aware that something was going on, based on some meetings I attended, and I regret not doing more to stop this at the time."
+            "description": "Well... looking back now, I suppose I should have seen more of what was happening. I sat in on some meetings, yes, and I wish I’d asked a few more questions. I regret not doing more at the time. It’s something I take to heart."
         }
     },
     {
@@ -6716,7 +6716,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4396,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.0175
+            "global_multiplier": 0.0249
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2232,
+        "fields": {
+            "answer": 4396,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0043
         }
     },
     {
@@ -7476,7 +7486,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4395,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.008
+            "global_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2358,
+        "fields": {
+            "answer": 4395,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0055
         }
     },
     {
@@ -9711,7 +9731,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4395,
             "candidate": 152,
-            "answer_feedback": "Best to lie low on the Iran-Contra issue and hope that Dukakis doesn't bring it up too much."
+            "answer_feedback": "This is no different from what you said in your televised address to the American people back in March of 1987. While your approval ratings have since recovered, and most folks no longer see it as a top issue, Michael Dukakis continues to treat it as if it's your Watergate. Let's hope the American people see it differently. "
         }
     },
     {
@@ -9720,7 +9740,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4396,
             "candidate": 152,
-            "answer_feedback": "It's extremely important that you do not appear to be implicated in this scandal. And if you did hear a stray word or two, you could count on Reagan's team in any case."
+            "answer_feedback": "You sound a bit more reflective than you did in your televised speech to the American people on Iran-Contra back in March of 1987. While some on your staff believe that this tone could help improve your favorability, it also makes you seem a bit... disconnected from the day-to-day decisions of your own White House."
         }
     },
     {
