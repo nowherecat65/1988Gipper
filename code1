@@ -627,8 +627,8 @@ const themes = {
   mainColor:           "#3A3B3E", // textured dark gray
   secondaryColor:      "#4A4D50", // slightly lighter accent
   uiTextColor:         "#ECECEC", // bright but gentle
-    windowGradient:     "linear-gradient(to bottom, #2E2E2E 0%, #393939 100%)",
-    titleGradient:      "linear-gradient(to right, #2E2E2E 0%, #3A3A3A 100%)",
+    windowGradient:     "linear-gradient(to bottom, #38393A 0%, #4E4F50 100%)",
+    titleGradient:      "linear-gradient(to right, #38393A 0%, #4A4B4C 100%)",
   containerBg:         "#424343"  // inner_window_w_desc override
   }
 };
