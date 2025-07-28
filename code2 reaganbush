@@ -104,7 +104,7 @@ campaignTrail_temp.questions_json = [
         "pk": 706,
         "fields": {
             "priority": 4,
-            "description": "Your campaign’s rollout of the ''Ten-Point Plan for Continued American Growth'' was meant to set the agenda this week. The plan extends the 1986 tax cuts, targets capital gains reform, and calls for new energy deregulation, classic Reaganomics. But within a day, Dukakis and his allies in the press are hammering what’s not there: no mention of childcare, healthcare, or support for cities. Some of your aides are urging you to publicly amend the plan. Others say stay the course. What will you do?",
+            "description": "Your campaign’s rollout of the ''Ten-Point Plan for Continued American Growth'' was meant to set the agenda this week. The plan extends the 1986 tax cuts, targets capital gains reform, and calls for new energy deregulation, classic Reaganomics. But within a day, Dukakis and his allies in the press are hammering what’s not there: no mention of childcare, healthcare, or urban aid. Some of your aides are urging you to publicly amend the plan. Others say stay the course. What will you do?",
             "likelihood": 1
         }
     },
