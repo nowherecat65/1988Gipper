@@ -577,6 +577,7 @@ function addDynamicCSS() {
     #menu_container {
       background-color: ${nct_stuff.themes[nct_stuff.selectedTheme].coloring_menu_container} !important;
     }
+
     #overall_result_container {
       background-color: #FFE93B !important;
 }
