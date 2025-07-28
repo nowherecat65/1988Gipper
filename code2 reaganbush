@@ -86,7 +86,7 @@ campaignTrail_temp.questions_json = [
         "pk": 705,
         "fields": {
             "priority": 4,
-            "description": "While you largely sailed through the Republican primary, one issue has concerned even some of your own supporters: your age. At 77, you’re already the oldest president in history. By the end of a third term, you’d be 83. And while you appear relatively spry, leaks have claimed you mix up names, show signs of forgetfulness, and appear lethargic at times. Do you plan to address this?",
+            "description": "While you largely sailed through the Republican primary, one issue has concerned even some of your own supporters: your age. At 77, you’re already the oldest president in history. By the end of a third term, you’d be nearly 83. And while you appear relatively spry, leaks have claimed you mix up names, show signs of forgetfulness, and appear lethargic at times. Do you plan to address this?",
             "likelihood": 1
         }
     },
