@@ -604,5 +604,105 @@ function addDynamicCSS() {
 
 addDynamicCSS();
 
+// ── Theme definitions ──
+const themes = {
+  jellyBean: {
+    headerColor:        "#f44336",
+    headerTextColor:    "#fffceb",
+    descriptionTextColor:"#212121",
+    descriptionBgColor: "#fffceb",
+    mainColor:          "#f44336",
+    secondaryColor:     "#4caf50",
+    uiTextColor:        "#212121",
+    windowGradient:     "linear-gradient(to bottom, #ffe23a 0%, #fdd32e 50%, #ffe23a 100%)",
+    titleGradient:      "linear-gradient(to right,#f44336,#ffeb3b,#4caf50)",
+    containerBg:        "#fffceb"
+  },
+  darkBasic: {
+  headerColor:         "#1F1F1F", // near-black charcoal
+  headerTextColor:     "#E1E1E1", // soft off‑white
+  descriptionTextColor:"#BFBFBF", // muted light gray
+  descriptionBgColor:  "#2E2E2E", // deep slate
+  mainColor:           "#3A3B3E", // textured dark gray
+  secondaryColor:      "#4A4D50", // slightly lighter accent
+  uiTextColor:         "#ECECEC", // bright but gentle
+  windowGradient:      "none",
+  titleGradient:       "none",
+  containerBg:         "#424343"  // inner_window_w_desc override
+  }
+};
+
+let currentTheme = 'jellyBean';
+let themeStyleTag;
+
+function applyTheme(name) {
+  const t = themes[name];
+  // remove old theme styles
+  if (themeStyleTag) themeStyleTag.remove();
+
+  // build and inject theme CSS
+  const css = `
+    .game_header {
+      background-image: ${t.titleGradient} !important;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      color: ${t.headerTextColor} !important;
+    }
+    #game_window {
+      background-image: ${t.windowGradient} !important;
+      background-color: ${t.containerBg} !important;
+    }
+    .container { background-color: ${t.containerBg} !important; }
+    #campaign_sign { background-color: ${t.mainColor} !important; border-color: ${t.secondaryColor} !important; color: #212121 !important; }
+    #map_container { background-color: ${t.containerBg} !important; }
+  `;
+  themeStyleTag = document.createElement('style');
+  themeStyleTag.type = 'text/css';
+  themeStyleTag.appendChild(document.createTextNode(css));
+  document.head.appendChild(themeStyleTag);
+
+  // set body background for each theme
+  if (name === 'jellyBean') {
+    document.body.style.background = "url('https://i.postimg.cc/BbyPCzW7/Jelly-Bean-background.png') no-repeat center center fixed";
+  } else {
+    document.body.style.background = "url('https://i.postimg.cc/RZ5ffYxp/background-sad.png') no-repeat center center fixed";
+  }
+  document.body.style.backgroundSize = 'cover';
+
+  // update modBoxTheme object
+  campaignTrail_temp.modBoxTheme = {
+    header_color:                t.headerColor,
+    header_text_color:           t.headerTextColor,
+    description_text_color:      t.descriptionTextColor,
+    description_background_color:t.descriptionBgColor,
+    main_color:                  t.mainColor,
+    secondary_color:             t.secondaryColor,
+    ui_text_color:               t.uiTextColor
+  };
+}
+
+// initial apply
+applyTheme(currentTheme);
+
+// create toggle button
+const btn = document.createElement('button');
+btn.textContent = 'Switch to Dark Theme';
+btn.style.position = 'fixed';
+btn.style.bottom = '10px';
+btn.style.right = '10px';
+btn.style.padding = '8px 12px';
+btn.style.background = '#212121';
+btn.style.color = '#fff';
+btn.style.border = 'none';
+btn.style.borderRadius = '4px';
+btn.style.cursor = 'pointer';
+btn.style.zIndex = '1000';
+btn.onclick = () => {
+  currentTheme = currentTheme === 'jellyBean' ? 'darkBasic' : 'jellyBean';
+  applyTheme(currentTheme);
+  btn.textContent = currentTheme === 'jellyBean' ? 'Switch to Dark Theme' : 'Switch to Jelly‑Bean Theme';
+};
+document.body.appendChild(btn);
+
 
 //#endcode
