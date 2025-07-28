@@ -140,7 +140,7 @@ campaignTrail_temp.questions_json = [
         "pk": 749,
         "fields": {
             "priority": 4,
-            "description": "Do you support additional gun control measures at the federal level?",
+            "description": "With growing concerns over violent crime and a string of high-profile shootings, Congressional Democrats are pushing new federal gun control legislation. Michael Dukakis has even endorsed limiting gun ownership for gang members and the mentally ill as part of his party’s platform. Do you support <em>any</em> additional federal action on gun control?",
             "likelihood": 1
         }
     },
@@ -750,7 +750,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4501,
         "fields": {
             "question": 749,
-            "description": "This is getting it completely backwards. American families have every right to defend themselves from America's crime epidemic."
+            "description": "I stand firmly opposed to what the Democratic Party is trying to do. The American family has a right to feel safe in their home, and that means standing up to crime, not taking rights away from law-abiding citizens. We can’t lose sight of that."
         }
     },
     {
@@ -758,7 +758,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4502,
         "fields": {
             "question": 749,
-            "description": "I would only support limited steps on this issue, like a ban on “cop killer” bullets. Overall, I'm an opponent of increased gun control."
+            "description": "Well, I’d be willing to sit down with folks on all sides and talk through fair, common-sense steps. We’ve got to get crime down in the inner cities, and I don’t see why some gang-bangin’ young buck needs to be carrying around a machine gun."
         }
     },
     {
@@ -766,7 +766,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4503,
         "fields": {
             "question": 749,
-            "description": "I believe that we need to consider any measure to reduce our nation's crime epidemic, including new gun control legislation."
+            "description": "I understand the concern, and we should always listen. But any new law has to be weighed very carefully, we can’t just grab for the nearest solution when lives and liberties are on the line."
         }
     },
     {
@@ -6994,9 +6994,19 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 2319,
         "fields": {
             "answer": 4501,
-            "candidate": 153,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.011
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2319,
+        "fields": {
+            "answer": 4501,
+            "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": -0.014
+            "global_multiplier": 0.001
         }
     },
     {
@@ -7056,17 +7066,37 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4502,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": -0.004
+            "global_multiplier": 0.008
         }
     },
     {
         "model": "campaign_trail.answer_score_global",
-        "pk": 2321,
+        "pk": 2320,
         "fields": {
             "answer": 4502,
-            "candidate": 153,
-            "affected_candidate": 153,
-            "global_multiplier": -0.004
+            "candidate": 152,
+            "affected_candidate": 154,
+            "global_multiplier": 0.052
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2320,
+        "fields": {
+            "answer": 4503,
+            "candidate": 152,
+            "affected_candidate": 154,
+            "global_multiplier": 0.026
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2320,
+        "fields": {
+            "answer": 4501,
+            "candidate": 152,
+            "affected_candidate": 154,
+            "global_multiplier": -0.033
         }
     },
     {
@@ -7076,7 +7106,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4503,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.05
+            "global_multiplier": 0.0225
         }
     },
     {
@@ -7437,16 +7467,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 153,
             "affected_candidate": 155,
             "global_multiplier": 0.3
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 2357,
-        "fields": {
-            "answer": 4502,
-            "candidate": 153,
-            "affected_candidate": 155,
-            "global_multiplier": 0.2
         }
     },
     {
@@ -9970,16 +9990,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4501,
             "candidate": 152,
-            "answer_feedback": "This is a mainstream position for a Republican to take."
+            "answer_feedback": "This was expected. Naturally, it plays well with conservatives, gun owners, and much of your base, especially in the West and South. Some suburban moderates may take issue with the tone if crime isn’t directly addressed, but overall, it’s a clear and familiar position."
         }
     },
     {
         "model": "campaign_trail.answer_feedback",
-        "pk": 1974,
+        "pk": 1973,
         "fields": {
-            "answer": 4501,
-            "candidate": 153,
-            "answer_feedback": "No Democrat has ever been elected President without winning Texas. Even so, liberal supporters are not pleased with this answer."
+            "answer": 4502,
+            "candidate": 152,
+            "answer_feedback": "This walks a tricky line, appealing to voters concerned about gun rights while showing some openness to discussion. But the elephant in the room is that urban Black voters, and many liberals as well, are very alienated by this sort of language, even if the messaging lands elsewhere."
         }
     },
     {
@@ -9988,16 +10008,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4503,
             "candidate": 152,
-            "answer_feedback": "This is anathema to Southerners, Westerners, and many Republicans in general."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 1976,
-        "fields": {
-            "answer": 4503,
-            "candidate": 153,
-            "answer_feedback": "This in line with your expected position, although it could be hurting you in some regions."
+            "answer_feedback": "Hmm. Besides riling up a few angry, fringe gun activists, this kind of response doesn’t seem to bother, or excite, much of anyone. No harm, no foul, I guess, Mr. President."
         }
     },
     {
