@@ -508,7 +508,7 @@ campaignTrail_temp.modBoxTheme = {
      "header_color":                "#f44336",  // bold red jelly‑bean
      "header_text_color":           "#fffceb",  // soft cream‑yellow bean
      "description_text_color":      "#212121",  // deep jelly‑bean black
-     "description_background_color":"#fffceb",  // gentle bean‑cream
+     "description_background_color":"#FBD900",  // gentle bean‑cream
      "main_color":                  "#f44336",  // primary bean red
      "secondary_color":             "#4CAF50",  // subtle pale green jelly‑bean
      "ui_text_color":               "#212121"   // deep jelly‑bean black
@@ -611,7 +611,7 @@ const themes = {
     headerColor:        "#f44336",
     headerTextColor:    "#fffceb",
     descriptionTextColor:"#212121",
-    descriptionBgColor: "#fffceb",
+    descriptionBgColor: "#fedc09",
     mainColor:          "#f44336",
     secondaryColor:     "#FED933",
     uiTextColor:        "#212121",
