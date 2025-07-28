@@ -51,7 +51,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democrat",
             "state": "Massachusetts",
             "priority": 2,
-            "description": "</h3><p><strong>NOT PLAYABLE. FOR CONTEXT ONLY.</strong><p>Michael Dukakis has been elected three times as Governor of Massachusetts. His chances this year may hinge on his ability to contrast his vision with President Reagan’s long tenure. Dukakis has secured the nomination without tying himself too closely to any one wing of the Democratic Party. His national profile is generally favorable, though still somewhat undefined. He will be expected to sharpen that profile and address aspects of his record that could come under renewed scrutiny.</p>",
+            "description": "</h3><p><strong>NOT PLAYABLE. FOR CONTEXT ONLY.</strong><p>Michael Dukakis, a three-term Governor of Massachusetts, secured the Democratic nomination with relative ease. This year, his chances may hinge on how clearly he can draw a contrast between his vision and the long shadow of President Reagan’s tenure. He’s managed to unite the party without tying himself too closely to any one faction, a balancing act that has helped but also left his national profile somewhat undefined. In the months ahead, he’ll be expected to sharpen that image, and come to terms with parts of his record that are likely to face renewed scrutiny.</p>",
             "color_hex": "#313BA7",
             "secondary_color_hex": "#7F9AC4",
             "is_active": 1,
