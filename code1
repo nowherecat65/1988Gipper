@@ -652,6 +652,10 @@ function applyTheme(name) {
       background-image: ${t.windowGradient} !important;
       background-color: ${t.containerBg} !important;
     }
+    .inner_window_w_desc {
+      background-image: none !important;
+      background-color: ${t.descriptionBgColor} !important;
+    }
     .container { background-color: ${t.containerBg} !important; }
     #campaign_sign { background-color: ${t.mainColor} !important; border-color: ${t.secondaryColor} !important; color: #212121 !important; }
     #map_container { background-color: ${t.containerBg} !important; }
