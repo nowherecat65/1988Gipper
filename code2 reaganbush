@@ -164,6 +164,15 @@ campaignTrail_temp.questions_json = [
     },
     {
         "model": "campaign_trail.question",
+        "pk": 7431,
+        "fields": {
+            "priority": 4,
+            "description": "Another day, another rally on the campaign trail, this time in Peoria, Illinois. On stage, for what feels like an eternity, are congressmen and party officials… you can’t quite remember their names. Then an aide leans in and says, “You’re on in five.” It’s almost time for you to speak to the people.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
         "pk": 743,
         "fields": {
             "priority": 4,
@@ -631,6 +640,30 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 742,
             "description": "I believe that capital punishment is ineffective at reducing crime, and is not applied in an equal manner. I do not support the practice."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 44812,
+        "fields": {
+            "question": 7431,
+            "description": "I-uh, I want to stick to the cards... now, uh, about the growth of the economy..."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 4481234,
+        "fields": {
+            "question": 7431,
+            "description": "Great. - These folks… well, I think they'll want to hear all about what their President's been doing to keep them safe."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 448123,
+        "fields": {
+            "question": 7431,
+            "description": "Could I get a coffee? I—uh, I want to look over my notes. I wrote a line about Dukakis this morning… let’s make sure we work it in."
         }
     },
     {
@@ -6889,6 +6922,66 @@ campaignTrail_temp.answer_score_global_json = [
     },
     {
         "model": "campaign_trail.answer_score_global",
+        "pk": 2297,
+        "fields": {
+            "answer": 44812,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0151
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2297,
+        "fields": {
+            "answer": 4481234,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0151
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2297,
+        "fields": {
+            "answer": 448123,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0151
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2297,
+        "fields": {
+            "answer": 44812,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2297,
+        "fields": {
+            "answer": 448123,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2297,
+        "fields": {
+            "answer": 4481234,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
         "pk": 2298,
         "fields": {
             "answer": 4481,
@@ -8227,6 +8320,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 4481,
             "issue": 57,
             "issue_score": -0.55,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1876,
+        "fields": {
+            "answer": 44812,
+            "issue": 57,
+            "issue_score": -0.27,
+            "issue_importance": 2.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1876,
+        "fields": {
+            "answer": 4481234,
+            "issue": 58,
+            "issue_score": -0.2,
+            "issue_importance": 2.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1876,
+        "fields": {
+            "answer": 448123,
+            "issue": 57,
+            "issue_score": -0.175,
+            "issue_importance": 2.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1876,
+        "fields": {
+            "answer": 448123,
+            "issue": 57,
+            "issue_score": -0.27,
             "issue_importance": 4
         }
     },
@@ -9921,9 +10054,27 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 1949,
         "fields": {
-            "answer": 4481,
-            "candidate": 153,
-            "answer_feedback": "More tax cuts are not part of the Democratic Party orthodoxy at this point."
+            "answer": 44812,
+            "candidate": 152,
+            "answer_feedback": "A slightly disheveled President Reagan soon makes his way on stage, shaking every hand in sight as the local high school band plays ''Hail to the Chief.'' The President opens with a familiar joke, then shifts into what sound like carefully scripted lines about the economy, delivers another light punchline, and just like that, it’s over. The crowd applauds, and before long, another GOP official steps up to the stage to close the event."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1949,
+        "fields": {
+            "answer": 448123,
+            "candidate": 152,
+            "answer_feedback": "A seemingly glowing President Reagan soon makes his way on stage, shaking every hand in sight as the local high school band plays ''Hail to the Chief.'' The President starts with a quip,  then pivots to a pointed jab at Dukakis’s economic record in Massachusetts, followed by a few more light-hearted but sharp cracks at the Governor, and then it’s over. The crowd applauds, and soon, another GOP official takes the stage to close the event."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1949,
+        "fields": {
+            "answer": 4481234,
+            "candidate": 152,
+            "answer_feedback": "There’s a lull for a moment, and then it begins. A lax President Reagan soon makes his way on stage, shaking hands and taking a few seconds with each local official as the high school band plays ''Hail to the Chief.'' The President opens with a lighthearted joke, then turns to the Cold War and his work with Gorbachev over the past four years. He closes by asking for their support once again, and then it’s over. The crowd applauds, and soon another GOP official steps up to the stage to close the event."
         }
     },
     {
