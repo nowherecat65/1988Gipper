@@ -212,7 +212,7 @@ campaignTrail_temp.questions_json = [
         "pk": 712,
         "fields": {
             "priority": 4,
-            "description": "Observers widely believe that Dan Quayle lost the Vice Presidential debate to Lloyd Bentsen. Do you agree?",
+            "description": "The recently held, vice-presidential debate between Senator Bentsen and Vice President Bush drew a large national audience, perhaps larger than expected. Held in Omaha, the mood was polite but pointed. At several moments, Bentsen, surprisingly eager, slammed you over Iran-Contra and what he called ''imperial'' tendencies, while Bush offered a loyal defense of your record and delivered a few jabs of his own at Dukakis. What did you make of their exchange?",
             "likelihood": 1
         }
     },
@@ -591,7 +591,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4404,
         "fields": {
             "question": 712,
-            "description": "That's a ridiculous statement. Of course some partisan Democrats are making that case, but Mr. Quayle more than held his own."
+            "description": "It was a fine showing. George held the line, kept his cool, and didn’t fall for Bentsen’s Senate smooth talk. This job-and the job of Vice President-is about having a strong backbone and a steady hand on the issues. And I think the American people could see who was standing on firmer ground."
         }
     },
     {
@@ -8397,6 +8397,26 @@ campaignTrail_temp.answer_score_issue_json = [
         "model": "campaign_trail.answer_score_issue",
         "pk": 1876,
         "fields": {
+            "answer": 4404,
+            "issue": 59,
+            "issue_score": -0.05,
+            "issue_importance": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1876,
+        "fields": {
+            "answer": 4404,
+            "issue": 57,
+            "issue_score": -0.05,
+            "issue_importance": 1.5
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1876,
+        "fields": {
             "answer": 4402,
             "issue": 59,
             "issue_score": 0.1,
@@ -10045,7 +10065,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4404,
             "candidate": 152,
-            "answer_feedback": "Everybody knows that Dan Quayle lost, but decorum requires you to spin it otherwise."
+            "answer_feedback": "The American people appear to be split along partisan lines when it comes to who they believe triumphed in the Vice Presidential debate. As the days drip by, it’s becoming clear to the press that this election has a more divided, and apparently more acrimonious, electorate than in 1984."
         }
     },
     {
