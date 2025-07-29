@@ -668,6 +668,14 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
+        "pk": 4481235,
+        "fields": {
+            "question": 7431,
+            "description": "Let’s keep it short today. Just the bullet points, no need to go off script. I’m feeling a bit… well, just make sure the flag’s behind me when I go up there."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
         "pk": 4481,
         "fields": {
             "question": 743,
@@ -6964,6 +6972,16 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 2297,
         "fields": {
+            "answer": 4481235,
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": -0.0139
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2297,
+        "fields": {
             "answer": 44812,
             "candidate": 152,
             "affected_candidate": 153,
@@ -6978,6 +6996,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 152,
             "affected_candidate": 153,
             "global_multiplier": 0.0051
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2297,
+        "fields": {
+            "answer": 4481235,
+            "candidate": 152,
+            "affected_candidate": 153,
+            "global_multiplier": 0.00775
         }
     },
     {
@@ -8390,6 +8418,16 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 448123,
             "issue": 57,
             "issue_score": -0.175,
+            "issue_importance": 2.25
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 1876,
+        "fields": {
+            "answer": 4481235,
+            "issue": 57,
+            "issue_score": -0.085,
             "issue_importance": 2.25
         }
     },
@@ -10175,6 +10213,15 @@ campaignTrail_temp.answer_feedback_json = [
             "answer": 4481234,
             "candidate": 152,
             "answer_feedback": "There’s a lull for a moment, and then it begins. A lax President Reagan soon makes his way on stage, shaking hands and taking a few seconds with each local official as the high school band plays ''Hail to the Chief.'' The President opens with a lighthearted joke, then turns to the Cold War and his work with Gorbachev over the past four years. He closes by asking for their support once again, and then it’s over. The crowd applauds, and soon another GOP official steps up to the stage to close the event."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1949,
+        "fields": {
+            "answer": 4481235,
+            "candidate": 152,
+            "answer_feedback": "It’s like the President is walking in slow motion, and yet in fast-forward at the same time. The local band plays ''Hail to the Chief,'' he shakes a few hands, tells a little joke, and then he’s off, seemingly sticking to prepared notes about the economic gains of the last eight years, global stability, and tax reform. And then, it’s over. The crowd applauds, and soon another GOP official steps up to the stage to close the event."
         }
     },
     {
