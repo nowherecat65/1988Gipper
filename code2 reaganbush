@@ -639,7 +639,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4480,
         "fields": {
             "question": 742,
-            "description": "You know, when these ... super predators commit these savage crimes, that they forfeit any claim to mercy. If we want to keep order, and keep everyone safe, we must make it clear: if you take a life, and you lose your right to live among the decent."
+            "description": "You know, when these... super predators commit such savage crimes, they forfeit any claim to mercy. If we want to keep order, and keep everyone safe, we must make it clear: if you take a life, you lose your right to live among the decent."
         }
     },
     {
