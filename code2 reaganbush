@@ -671,7 +671,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4481235,
         "fields": {
             "question": 7431,
-            "description": "Let’s keep it short today. Just the bullet points, no need to go off script. I’m feeling a bit… well, just make sure the flag’s behind me when I go up there."
+            "description": "Let’s keep it short today. Just the bullet points, no need to go off script. I’m feeling a bit… just remind me who’s introducing me again?"
         }
     },
     {
