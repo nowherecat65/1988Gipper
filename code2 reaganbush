@@ -167,7 +167,7 @@ campaignTrail_temp.questions_json = [
         "pk": 7431,
         "fields": {
             "priority": 4,
-            "description": "Another day, another rally on the campaign trail, this time in Peoria, Illinois. On stage, for what feels like an eternity, are congressmen and party officials… you can’t quite remember their names. Then an aide leans in and says, “You’re on in five.” It’s almost time for you to speak to the people.",
+            "description": "Another day, another rally on the campaign trail, this time in Peoria, Illinois. On stage, for what feels like an eternity, are congressmen and party officials… you can’t quite remember their names. You feel tired. A little foggy. Then an aide leans in and says, ''You’re on in five.'' It’s almost time for you to speak to the people.",
             "likelihood": 1
         }
     },
