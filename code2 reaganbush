@@ -185,7 +185,7 @@ campaignTrail_temp.questions_json = [
         "pk": 742,
         "fields": {
             "priority": 4,
-            "description": "What is your position on capital punishment?",
+            "description": "You’ve long voiced support for capital punishment, and your Justice Department has defended it vigorously. But with public debate intensifying, and recent court rulings in mind, do you still see the death penalty as an effective deterrent? And how do you plan to address it in a third term?",
             "likelihood": 1
         }
     },
@@ -623,7 +623,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4478,
         "fields": {
             "question": 742,
-            "description": "We need to do anything necessary to reduce the staggering rate of murder and violent crime in this country."
+            "description": "Well, I’ve said it before, Americans deserve to feel safe in their neighborhoods. And if we’re serious about reducing violent crime, we ought to give law enforcement, and our courts, every tool they need to do the job right."
         }
     },
     {
@@ -631,7 +631,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4479,
         "fields": {
             "question": 742,
-            "description": "I believe, if a state wishes to impose capital punishment, that it should have every right to do so."
+            "description": "I've always believed that if a state, through its own laws and due process, chooses to impose capital punishment, that’s their right, and Washington ought to respect that."
         }
     },
     {
@@ -639,7 +639,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4480,
         "fields": {
             "question": 742,
-            "description": "I believe that capital punishment is ineffective at reducing crime, and is not applied in an equal manner. I do not support the practice."
+            "description": "You know, when these ... super predators commit these savage crimes, that they forfeit any claim to mercy. If we want to keep order, and keep everyone safe, we must make it clear: if you take a life, and you lose your right to live among the decent."
         }
     },
     {
@@ -6897,17 +6897,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4480,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.05
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 2296,
-        "fields": {
-            "answer": 4480,
-            "candidate": 153,
-            "affected_candidate": 153,
-            "global_multiplier": -0.028
+            "global_multiplier": 0.015
         }
     },
     {
@@ -7615,9 +7605,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 2361,
         "fields": {
             "answer": 4478,
-            "candidate": 153,
-            "affected_candidate": 153,
-            "global_multiplier": -0.008
+            "candidate": 152,
+            "affected_candidate": 152,
+            "global_multiplier": 0.008
         }
     },
     {
@@ -7625,8 +7615,8 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 2362,
         "fields": {
             "answer": 4479,
-            "candidate": 153,
-            "affected_candidate": 153,
+            "candidate": 152,
+            "affected_candidate": 152,
             "global_multiplier": -0.004
         }
     },
@@ -8269,7 +8259,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4479,
             "issue": 59,
-            "issue_score": -0.1,
+            "issue_score": -0.13,
             "issue_importance": 2
         }
     },
@@ -8329,7 +8319,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4479,
             "issue": 60,
-            "issue_score": -0.1,
+            "issue_score": -0.13,
             "issue_importance": 3
         }
     },
@@ -8339,7 +8329,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4480,
             "issue": 59,
-            "issue_score": 0.5,
+            "issue_score": -0.5,
             "issue_importance": 2
         }
     },
@@ -8349,7 +8339,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4480,
             "issue": 60,
-            "issue_score": 0.5,
+            "issue_score": -0.5,
             "issue_importance": 3
         }
     },
@@ -10090,8 +10080,8 @@ campaignTrail_temp.answer_feedback_json = [
         "pk": 1944,
         "fields": {
             "answer": 4478,
-            "candidate": 153,
-            "answer_feedback": "As capital punishment becomes an issue, it's difficult to find a position that doesn't alienate some group of your potential voters."
+            "candidate": 152,
+            "answer_feedback": "You've stuck to your guns on this issue, and it brings a smile to the face of every red-blooded Republican out there. The press, and Michael Dukakis, will continue to cite statistics and make grandiose pleas but you know the folks are with you."
         }
     },
     {
@@ -10100,7 +10090,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4479,
             "candidate": 153,
-            "answer_feedback": "As capital punishment becomes an issue, it's difficult to find a position that doesn't alienate some group of your potential voters."
+            "answer_feedback": "While this doesn’t ruffle too many feathers, some in your base find the stance a little underwhelming, and those who are more liberal on the issue already have a big problem with you. Was it really worth hedging on this?"
         }
     },
     {
@@ -10109,16 +10099,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4480,
             "candidate": 152,
-            "answer_feedback": "Your new position is a bombshell, and its greatly unappealing to most Republicans."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 1947,
-        "fields": {
-            "answer": 4480,
-            "candidate": 153,
-            "answer_feedback": "Unfortunately, this position alienates you with moderates in the current high-crime environment."
+            "answer_feedback": "You’ve always had a knack for saying things in a way that lets the people who want to hear the real message really hear it, and this time is no different. The press claim they see through it. Dukakis calls it 'racialized.' But those Harvard and <em>New York Times</em> bigwigs have never given a damn about regular folks, and the people don't trust them."
         }
     },
     {
