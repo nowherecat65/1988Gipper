@@ -671,7 +671,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4481,
         "fields": {
             "question": 743,
-            "description": "As President, I will do anything I can to cut income taxes further."
+            "description": "I've always believed in letting the American people keep more of what they earn. And if there's a responsible way to cut taxes further, I’ll pursue it."
         }
     },
     {
@@ -679,7 +679,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4482,
         "fields": {
             "question": 743,
-            "description": "Read my lips. There will be no new taxes under my Administration."
+            "description": "Well, you know, I’ve made it a point never to promise something I can’t keep. But let me say this, we’re not in the business of raising taxes. That’s never been my way."
         }
     },
     {
@@ -687,7 +687,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4483,
         "fields": {
             "question": 743,
-            "description": "I hope that this isn't necessary, but it would be irresponsible to rule anything out at the present time."
+            "description": "Well, I’d like to think it won’t be necessary, but I don’t believe in tying the country’s hands. The responsible thing is to keep every option on the table, just in case."
         }
     },
     {
@@ -695,7 +695,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4484,
         "fields": {
             "question": 743,
-            "description": "My opponent will raise taxes, and so will I. He won't tell you. I just did."
+            "description": "Well now, this is rich, coming from Governor Dukakis. He says I’m the one who’ll raise your taxes, but I’ve seen what he’s done up there in Massachusetts. I’m not about to take lessons from someone who’s made a habit of hiking them."
         }
     },
     {
@@ -7017,7 +7017,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4483,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.016
         }
     },
     {
@@ -7025,8 +7025,8 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 2302,
         "fields": {
             "answer": 4483,
-            "candidate": 153,
-            "affected_candidate": 153,
+            "candidate": 152,
+            "affected_candidate": 152,
             "global_multiplier": -0.008
         }
     },
@@ -7037,7 +7037,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4484,
             "candidate": 152,
             "affected_candidate": 153,
-            "global_multiplier": 0.07
+            "global_multiplier": -0.007
         }
     },
     {
@@ -7046,8 +7046,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 4484,
             "candidate": 153,
-            "affected_candidate": 153,
-            "global_multiplier": -0.045
+            "affected_candidate": 152,
+            "global_multiplier": -0.003
         }
     },
     {
@@ -7607,7 +7607,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4482,
             "candidate": 153,
             "affected_candidate": 155,
-            "global_multiplier": 0.2
+            "global_multiplier": 0.1
         }
     },
     {
@@ -8389,8 +8389,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4481,
             "issue": 57,
-            "issue_score": -0.55,
-            "issue_importance": 4
+            "issue_score": -0.475,
+            "issue_importance": 3.5
         }
     },
     {
@@ -8479,8 +8479,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4482,
             "issue": 57,
-            "issue_score": -0.15,
-            "issue_importance": 4
+            "issue_score": -0.1,
+            "issue_importance": 3
         }
     },
     {
@@ -8489,7 +8489,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4483,
             "issue": 57,
-            "issue_score": 0.3,
+            "issue_score": 0.25,
             "issue_importance": 3
         }
     },
@@ -8499,8 +8499,8 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 4484,
             "issue": 57,
-            "issue_score": 0.65,
-            "issue_importance": 8
+            "issue_score": -0.05,
+            "issue_importance": 3
         }
     },
     {
@@ -10157,7 +10157,16 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4481,
             "candidate": 152,
-            "answer_feedback": "Even some solid Republicans are questioning the wisdom of more tax cuts with the current debt and deficit."
+            "answer_feedback": "While hardliners in your administration like the sound of this, many economists, and even some Republicans, are beginning to question the philosophy behind pursuing further tax cuts, given the state of the deficit and debt."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 1948,
+        "fields": {
+            "answer": 4482,
+            "candidate": 152,
+            "answer_feedback": "This strikes a nice chord with most Americans, who generally feel good about the current tax structure and the broader state of the economy. Promising a continuation of what’s working seems like the obvious move to many in your campaign."
         }
     },
     {
@@ -10202,7 +10211,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4483,
             "candidate": 152,
-            "answer_feedback": "People wonder what you mean by this. You emphasize that you're not talking about income tax increases."
+            "answer_feedback": "While this sort of even-keeled demeanor can work fine for big, complicated issues, when Dukakis is promising a tax hike if you re-elect President Reagan for a third term, a comment like this, where you don’t clearly take tax increases off the table, comes across as a gaffe."
         }
     },
     {
@@ -10211,16 +10220,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4484,
             "candidate": 152,
-            "answer_feedback": "Most Americans wonder if you hit your head the wrong way getting out of bed this morning."
-        }
-    },
-    {
-        "model": "campaign_trail.answer_feedback",
-        "pk": 1953,
-        "fields": {
-            "answer": 4484,
-            "candidate": 153,
-            "answer_feedback": "This answer, after the 1984 debacle, really has observers scratching their heads."
+            "answer_feedback": "Pivoting to Dukakis’s admittedly fairly liberal record on taxes is obvious, but it doesn’t change what he’s saying on the trail and in the press. Let's hope people don't pay too much attention to the papers. "
         }
     },
     {
