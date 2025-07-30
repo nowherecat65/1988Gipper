@@ -212,7 +212,7 @@ campaignTrail_temp.questions_json = [
         "pk": 712,
         "fields": {
             "priority": 4,
-            "description": "The recently held, vice-presidential debate between Senator Bentsen and Vice President Bush drew a large national audience, perhaps larger than expected. Held in Omaha, the mood was polite but pointed. At several moments, Bentsen, surprisingly eager, slammed you over Iran-Contra and what he called ''imperial'' tendencies, while Bush offered a loyal defense of your record and delivered a few jabs of his own at Dukakis. What did you make of their exchange?",
+            "description": "The recently held, vice-presidential debate between Senator Bentsen and Vice President Bush drew a large national audience, a bit larger than expected. Held in Omaha, the mood was polite but pointed. At several moments, Bentsen, surprisingly eager, slammed you over Iran-Contra and what he called ''imperial'' tendencies, while Bush offered a loyal defense of your record and delivered a few jabs of his own at Dukakis. What did you make of their exchange?",
             "likelihood": 1
         }
     },
@@ -591,7 +591,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4404,
         "fields": {
             "question": 712,
-            "description": "It was a fine showing. George held the line, kept his cool, and didn’t fall for Bentsen’s Senate smooth talk. This job-and the job of Vice President-is about having a strong backbone and a steady hand on the issues. And I think the American people could see who was standing on firmer ground."
+            "description": "It was a fine showing. George kept his cool, and didn’t fall for Bentsen’s Senate smooth talk. This job, and the job of Vice President, is about having a strong backbone and a steady hand on the issues. And I think the American people could see who was standing on firmer ground."
         }
     },
     {
