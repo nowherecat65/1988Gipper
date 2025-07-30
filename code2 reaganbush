@@ -194,7 +194,7 @@ campaignTrail_temp.questions_json = [
         "pk": 701,
         "fields": {
             "priority": 4,
-            "description": "Would you endorse a constitutional amendment to ban abortion in the United States?",
+            "description": "You voiced support for a constitutional amendment on abortion during your earlier campaigns. As you seek a third term, do you continue to endorse a national amendment banning the procedure?",
             "likelihood": 1
         }
     },
