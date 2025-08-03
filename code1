@@ -465,6 +465,9 @@ document.head.insertAdjacentHTML("beforeend", `
 #state_result h3 {
   background-color: #F44336;
 }
+ #state_result_container {
+   background-color: #F9DD38 !important;
+}
 .campaign_trail_start_emphasis {
   background: linear-gradient(to right, #f44336, #f44336) !important;
 }
