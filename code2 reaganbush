@@ -50,7 +50,7 @@ campaignTrail_temp.questions_json = [
         "pk": 699,
         "fields": {
             "priority": 2,
-            "description": "Uh-oh. Things are starting to get messy behind the scenes of your campaign. Ed Rollins, your campaign manager in 1984, was expected to keep his job, but several allies, others within the campaign, and even the First Lady now believe Rollins and his strategy will insulate you in a race that’s shaping up to be more competitive than 1984. The political press is running story after story, some even claiming your campaign is nearing a civil war. What should we do?",
+            "description": "Uh-oh. Things are starting to get messy behind the scenes of your campaign. Ed Rollins, your campaign manager in 1984, was expected to keep his job, but several allies, others within the campaign, and even the First Lady now believe that Rollins and his strategy will insulate you in a race that’s shaping up to be more competitive than 1984. The political press is running story after story, with some even claiming your campaign is nearing a civil war. What should we do?",
             "likelihood": 1
         }
     },
