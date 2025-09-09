@@ -9816,7 +9816,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4367123,
             "candidate": 152,
-            "answer_feedback": "''... Now, there’s still more to do. After much thought and prayer, and with faith in the path ahead, I am announcing my candidacy for re-election as President of the United States. If you’ll have me, well, I’d be honored to keep serving, working for a safer, stronger, and, well, a more hopeful America. Thank you, and God bless you all.''"
+            "answer_feedback": "''... Now, there’s still more to do. After much thought and prayer, and with faith in the path ahead, I am announcing my candidacy for re-election as President of the United States. If you’ll have me, well, I’d be honored to keep serving, working for a safer, stronger, and, a more hopeful America. Thank you, and God bless you all.''"
         }
     },
     {
