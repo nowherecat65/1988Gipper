@@ -122,7 +122,7 @@ campaignTrail_temp.questions_json = [
         "pk": 703,
         "fields": {
             "priority": 4,
-            "description": "Thanks to some digging by Republican operatives, much has been made of the Massachusetts prison furlough program, a policy that allowed felons temporary release from prison. One such case, Willie Horton, committed violent crimes, including rape and armed robbery, while on furlough from a life sentence without the possibility of parole for murder. How aggressively should your campaign seize on this issue?",
+            "description": "Thanks to digging by Republican operatives, much has been made of the Massachusetts prison furlough program, a policy that allowed felons temporary release from prison. One such case is Willie Horton, who committed violent crimes, including rape and armed robbery, while on furlough from a life sentence without the possibility of parole for murder. How aggressively should your campaign seize on this issue?",
             "likelihood": 1
         }
     },
@@ -4780,7 +4780,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 481,
-            "state_multiplier": 1.22698821213231313462355335156868568856453421235326263574896907546241414
+            "state_multiplier": 1.23698821213231313462355335156868568856453421235326263574896907546241414
         }
     },
     {
