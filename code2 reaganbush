@@ -113,7 +113,7 @@ campaignTrail_temp.questions_json = [
         "pk": 713,
         "fields": {
             "priority": 4,
-            "description": "Larry Pressler, the independent-minded Senator from South Dakota, and the only serious Republican willing to challenge you in the primary, spoke against your administration’s handling of the farm crisis and criticized the 'imperial' decision to seek a third term. Now, some of his comments are being featured in advertisements for the Dukakis campaign. How should we respond, if at all? ",
+            "description": "Larry Pressler, the independent-minded senator from South Dakota and the only serious Republican willing to challenge you in the primary, criticized your administration’s handling of the farm crisis and called your decision to seek a third term ''imperial.'' Now some of his comments are being featured in advertisements for the Dukakis campaign. How should we respond, if at all? ",
             "likelihood": 1
         }
     },
@@ -4681,7 +4681,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 152,
             "state": 470,
-            "state_multiplier": 1.226112111211234171
+            "state_multiplier": 1.216112111211234171
         }
     },
     {
@@ -5140,7 +5140,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 153,
             "state": 470,
-            "state_multiplier": 1.28
+            "state_multiplier": 1.2888788788799576734346562
         }
     },
     {
