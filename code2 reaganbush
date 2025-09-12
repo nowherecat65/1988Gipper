@@ -140,7 +140,7 @@ campaignTrail_temp.questions_json = [
         "pk": 749,
         "fields": {
             "priority": 4,
-            "description": "With growing concerns over violent crime and a string of high-profile shootings, Congressional Democrats are pushing new federal gun control legislation. Michael Dukakis has even endorsed limiting gun ownership for troublemakers and the mentally ill as part of his party’s platform. Do you support <em>any</em> additional federal action on gun control?",
+            "description": "With growing concerns over violent crime and a string of high-profile shootings, Congressional Democrats are pushing new federal gun control legislation. Michael Dukakis/the DNC has endorsed limiting gun ownership for troublemakers and the mentally ill as part of his party’s platform. Do you support <em>any</em> additional federal action on gun control?",
             "likelihood": 1
         }
     },
