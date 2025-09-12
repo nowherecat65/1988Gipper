@@ -655,7 +655,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4481234,
         "fields": {
             "question": 7431,
-            "description": "Great. - These folks… well, I think they'll want to hear all about what their President's been doing to keep them safe."
+            "description": "Great. These folks… well, I think they'll want to hear all about what their President's been doing to keep them safe."
         }
     },
     {
