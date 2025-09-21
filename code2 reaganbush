@@ -257,7 +257,7 @@ campaignTrail_temp.questions_json = [
         "pk": 709,
         "fields": {
             "priority": 5,
-            "description": "Sir… this is bad. A reporter from <em>The Philadelphia Inquirer</em> has obtained an internal campaign memo, nicknamed the ''Bergen Briefing'', prepared for your New Jersey event last month. Drafted by senior aides and speechwriters, it outlines your talking points and visual cues, including instructions like: ''Avoid unscripted exchanges - stick to cards,'' and ''Keep remarks under 10 minutes - President tires after 3 P.M.'' Needless to say, the memo is wreaking havoc. Some Democrats are already calling it evidence of cognitive decline. We need to respond, and fast.",
+            "description": "Sir, this is bad. A reporter from <em>The Philadelphia Inquirer</em> has obtained an internal campaign memo, nicknamed the ''Bergen Briefing,'' prepared for your New Jersey event last month. Drafted by senior aides and speechwriters, it outlines your talking points and visual cues, including instructions such as ''Avoid unscripted exchanges; stick to cards'' and ''Keep remarks under 10 minutes; President tires after 3 p.m.'' The memo is wreaking havoc. Some Democrats are already calling it evidence of cognitive decline. We need to respond, fast.",
             "likelihood": 1
         }
     },
