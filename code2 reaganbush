@@ -295,7 +295,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4367,
         "fields": {
             "question": 698,
-            "description": "Well… you know, it’s funny—these things come around, and it still feels new in a way. I suppose we ought to talk about what’s worked, freedom, growth, peace through strength… all of that. "
+            "description": "You know, it’s funny—these things come around, and it still feels new in a way. I suppose we ought to talk about what’s worked, freedom, growth, peace through strength… all of that. "
         }
     },
     {
@@ -551,7 +551,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4396,
         "fields": {
             "question": 708,
-            "description": "Well... looking back now, I suppose I should have seen more of what was happening. I sat in on some meetings, yes, and I wish I’d asked a few more questions. I regret not doing more at the time. It’s something I take to heart."
+            "description": "Funny thing... looking back now, I suppose I should have seen more of what was happening. I sat in on some meetings, yes, and I wish I’d asked a few more questions. I regret not doing more at the time. It’s something I take to heart."
         }
     },
     {
@@ -607,7 +607,7 @@ campaignTrail_temp.answers_json = [
         "pk": 44055,
         "fields": {
             "question": 713,
-            "description": "Well, I don't think it helps to get bogged down in a fight among our own. You remember the Eleventh Commandment. Let's stay the course, and let the Democrats run whatever ads they’re running. "
+            "description": "My friends, I don't think it helps to get bogged down in a fight among our own. You remember the Eleventh Commandment. Let's stay the course, and let the Democrats run whatever ads they’re running. "
         }
     },
     {
@@ -623,7 +623,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4478,
         "fields": {
             "question": 742,
-            "description": "Well, I’ve said it before, Americans deserve to feel safe in their neighborhoods. And if we’re serious about reducing violent crime, we ought to give law enforcement, and our courts, every tool they need to do the job right."
+            "description": "Here’s the truth, I’ve said it before, Americans deserve to feel safe in their neighborhoods. And if we’re serious about reducing violent crime, we ought to give law enforcement, and our courts, every tool they need to do the job right."
         }
     },
     {
@@ -687,7 +687,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4482,
         "fields": {
             "question": 743,
-            "description": "Well, you know, I’ve made it a point never to promise something I can’t keep. But let me say this, we’re not in the business of raising taxes. That’s never been my way."
+            "description": "I happen to believe... I’ve made it a point never to promise something I can’t keep. But let me say this, we’re not in the business of raising taxes. That’s never been my way."
         }
     },
     {
@@ -703,7 +703,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4484,
         "fields": {
             "question": 743,
-            "description": "Well now, this is rich, coming from Governor Dukakis. He says I’m the one who’ll raise your taxes, but I’ve seen what he’s done up there in Massachusetts. I’m not about to take lessons from someone who’s made a habit of hiking them."
+            "description": "Now, here’s the thing, this is rich, coming from Governor Dukakis. He says I’m the one who’ll raise your taxes, but I’ve seen what he’s done up there in Massachusetts. I’m not about to take lessons from someone who’s made a habit of hiking them."
         }
     },
     {
@@ -783,7 +783,7 @@ campaignTrail_temp.answers_json = [
         "pk": 450125,
         "fields": {
             "question": 7491,
-            "description": "Well, I… I’ve been proud of the work we’ve done, and I still am. This sounds more like politics than policy to me, but we’ll take it seriously."
+            "description": "Let me be clear, I… I’ve been proud of the work we’ve done, and I still am. This sounds more like politics than policy to me, but we’ll take it seriously."
         }
     },
     {
